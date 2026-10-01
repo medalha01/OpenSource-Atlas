@@ -8,7 +8,7 @@
 
 *One place to find the tool for the job — curated open-source projects, status-labelled and linked straight to their source repositories.*
 
-![b](https://img.shields.io/badge/projects-1040-f4c542?style=for-the-badge&labelColor=1c1c1c) ![b](https://img.shields.io/badge/categories-27-4c9aff?style=for-the-badge&labelColor=1c1c1c) ![b](https://img.shields.io/badge/license-CC0--1.0-brightgreen?style=for-the-badge&labelColor=1c1c1c) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+![b](https://img.shields.io/badge/projects-1117-f4c542?style=for-the-badge&labelColor=1c1c1c) ![b](https://img.shields.io/badge/categories-27-4c9aff?style=for-the-badge&labelColor=1c1c1c) ![b](https://img.shields.io/badge/license-CC0--1.0-brightgreen?style=for-the-badge&labelColor=1c1c1c) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 [**Browse categories ↓**](#-categories) &nbsp;·&nbsp; [**Add a project**](CONTRIBUTING.md) &nbsp;·&nbsp; [**Report a dead link**](../../issues/new?template=broken-link.yml) &nbsp;·&nbsp; [**Security**](SECURITY.md)
 
@@ -22,7 +22,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 
 | | |
 |---|---|
-| 🗂️ **27 categories, 217 subcategories** | From AI and databases to security, self-hosting, and mobile — organized so you can navigate by the problem you're solving. |
+| 🗂️ **27 categories, 233 subcategories** | From AI and databases to security, self-hosting, and mobile — organized so you can navigate by the problem you're solving. |
 | 🔗 **Direct repository links** | Every entry points at the actual source repo. No aggregators, no paywalls, no redirects. |
 | ✅ **Maintained & open source** | Entries must have a clear OSI/free license and recent activity. Inactive and archived projects are labelled, not hidden. |
 | 🤖 **Automatically checked** | Pull requests run deterministic schema/build validation, while scheduled CI performs external link checks (see [`tools/`](tools)). |
@@ -31,7 +31,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 
 > ⭐ **If this saves you time, please [star the repo](../../stargazers).** It takes two seconds and helps other developers find it.
 
-<sub>Projects: 1040 · Categories: 27 · Subcategories: 217</sub>
+<sub>Projects: 1117 · Categories: 27 · Subcategories: 233</sub>
 
 ---
 
@@ -310,41 +310,57 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 
 </td><td valign="top" width="50%">
 
-**🌐 [Networking, VPN & DNS](#networking-vpn-dns)** · 13
+**🌐 [Networking, VPN & DNS](#networking-vpn-dns)** · 37
 
-- [VPN & Mesh Networking](#vpn-mesh-networking) `4`
-- [DNS, Ad Blocking & Filtering](#dns-ad-blocking-filtering) `4`
-- [Tunnels](#tunnels) `3`
-- [Network Diagnostics & Web Analysis](#network-diagnostics-web-analysis) `2`
+- [VPN & Mesh Networking](#vpn-mesh-networking) `7`
+- [DNS, Ad Blocking & Filtering](#dns-ad-blocking-filtering) `7`
+- [Tunnels](#tunnels) `5`
+- [Network Diagnostics & Web Analysis](#network-diagnostics-web-analysis) `4`
+- [Packet Capture & Traffic Analysis](#packet-capture-traffic-analysis) `3`
+- [IPAM, DCIM & Network Source of Truth](#ipam-dcim-network-source-of-truth) `3`
+- [Network Automation & Configuration](#network-automation-configuration) `3`
+- [Network Emulation & Labs](#network-emulation-labs) `2`
+- [Routing & Network Operating Systems](#routing-network-operating-systems) `3`
 
 </td></tr>
 <tr><td valign="top" width="50%">
 
-**🔒 [Security & Privacy](#security-privacy)** · 70
+**🔒 [Security & Privacy](#security-privacy)** · 88
 
-- [Container & Kubernetes Security](#container-kubernetes-security) `6`
+- [Container & Kubernetes Security](#container-kubernetes-security) `7`
 - [Endpoint & Runtime Security](#endpoint-runtime-security) `7`
 - [Network Security, IDS & SIEM](#network-security-ids-siem) `6`
+- [Web Application Firewalls & AppSec](#web-application-firewalls-appsec) `3`
 - [Bot Protection & Intrusion Prevention](#bot-protection-intrusion-prevention) `2`
 - [Privacy & Anonymity](#privacy-anonymity) `5`
 - [Reverse Engineering & Pentesting](#reverse-engineering-pentesting) `10`
+- [Secret Scanning & Credential Detection](#secret-scanning-credential-detection) `3`
 - [Secrets Management & Encryption](#secrets-management-encryption) `7`
 - [PKI & Certificate Automation](#pki-certificate-automation) `4`
 - [Software Supply Chain & SBOM](#software-supply-chain-sbom) `4`
 - [Cloud Security Posture & IaC Security](#cloud-security-posture-iac-security) `4`
-- [Vulnerability Scanning & Static Analysis](#vulnerability-scanning-static-analysis) `8`
+- [Vulnerability Scanning & Static Analysis](#vulnerability-scanning-static-analysis) `9`
+- [Threat Intelligence & Incident Response](#threat-intelligence-incident-response) `2`
+- [Digital Forensics & DFIR](#digital-forensics-dfir) `3`
+- [Malware Analysis & Detection](#malware-analysis-detection) `3`
 - [Data Platform Security & Access](#data-platform-security-access) `3`
 - [Remote Access](#remote-access) `3`
-- [Security Utilities](#security-utilities) `1`
+- [Security Utilities](#security-utilities) `3`
 
 </td><td valign="top" width="50%">
 
-**📱 [Frontend & Web Development](#frontend-web-development)** · 55
+**📱 [Frontend & Web Development](#frontend-web-development)** · 90
 
-- [UI Frameworks & Meta-Frameworks](#ui-frameworks-meta-frameworks) `10`
-- [JavaScript Runtimes, Bundlers & Build Tools](#javascript-runtimes-bundlers-build-tools) `4`
+- [UI Frameworks & Meta-Frameworks](#ui-frameworks-meta-frameworks) `13`
+- [JavaScript Runtimes, Bundlers & Build Tools](#javascript-runtimes-bundlers-build-tools) `12`
+- [State Management & Data Fetching](#state-management-data-fetching) `4`
+- [Forms, Validation & Schemas](#forms-validation-schemas) `4`
+- [Web Components](#web-components) `2`
+- [Web Testing & Component Development](#web-testing-component-development) `4`
+- [Web Performance & Accessibility](#web-performance-accessibility) `3`
 - [Desktop & Cross-Platform Apps](#desktop-cross-platform-apps) `3`
-- [CSS Frameworks](#css-frameworks) `1`
+- [CSS Frameworks](#css-frameworks) `4`
+- [CSS Tooling & Styling](#css-tooling-styling) `4`
 - [React UI Libraries](#react-ui-libraries) `8`
 - [Vue UI Libraries](#vue-ui-libraries) `2`
 - [Angular UI Libraries](#angular-ui-libraries) `4`
@@ -2336,7 +2352,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 <a id="networking-vpn-dns"></a>
 ## 🌐 Networking, VPN & DNS
 
-> VPN/mesh networks, DNS and ad blocking, tunnels, and diagnostics. · **13 projects**
+> VPN/mesh networks, DNS, tunnels, traffic analysis, network automation, labs, routing, and source-of-truth tooling. · **37 projects**
 
 <a id="vpn-mesh-networking"></a>
 ### VPN & Mesh Networking
@@ -2344,9 +2360,12 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | Project | Description | Stars |
 |---|---|---|
 | [**Headscale**](https://github.com/juanfont/headscale) | Open-source self-hosted coordination server compatible with Tailscale clients | ![★](https://img.shields.io/github/stars/juanfont/headscale?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Nebula**](https://github.com/slackhq/nebula) | Scalable overlay networking tool with mutually authenticated encrypted tunnels | ![★](https://img.shields.io/github/stars/slackhq/nebula?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**NetBird**](https://github.com/netbirdio/netbird) | WireGuard-based secure networking platform for private connectivity | ![★](https://img.shields.io/github/stars/netbirdio/netbird?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**OpenVPN**](https://github.com/OpenVPN/openvpn) | The established, battle-tested open source VPN | ![★](https://img.shields.io/github/stars/OpenVPN/openvpn?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Tailscale**](https://github.com/tailscale/tailscale) | WireGuard-based mesh VPN client with NAT traversal and identity-aware networking | ![★](https://img.shields.io/github/stars/tailscale/tailscale?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**WG-Easy**](https://github.com/wg-easy/wg-easy) | Easiest way to run WireGuard VPN + web UI | ![★](https://img.shields.io/github/stars/wg-easy/wg-easy?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**WireGuard**](https://git.zx2c4.com/wireguard-tools)<br><sub>mirror: [WireGuard/wireguard-tools](https://github.com/WireGuard/wireguard-tools)</sub> | Fast modern VPN protocol and userspace tools for encrypted IP networking | — |
 
 <a id="dns-ad-blocking-filtering"></a>
 ### DNS, Ad Blocking & Filtering
@@ -2354,9 +2373,12 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | Project | Description | Stars |
 |---|---|---|
 | [**AdGuard Home**](https://github.com/AdguardTeam/AdGuardHome) | Self-hosted DNS server with ad and tracker blocking | ![★](https://img.shields.io/github/stars/AdguardTeam/AdGuardHome?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Blocky**](https://github.com/0xERR0R/blocky) | Fast DNS proxy and ad blocker with caching, filtering, and Prometheus metrics | ![★](https://img.shields.io/github/stars/0xERR0R/blocky?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**CoreDNS**](https://github.com/coredns/coredns) | Flexible and extensible DNS server commonly used in Kubernetes | ![★](https://img.shields.io/github/stars/coredns/coredns?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Pi-hole**](https://github.com/pi-hole/pi-hole) | Network-wide ad blocker and DNS sinkhole for improving privacy | ![★](https://img.shields.io/github/stars/pi-hole/pi-hole?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**PowerDNS**](https://github.com/PowerDNS/pdns) | Authoritative DNS, recursive DNS, and dnsdist traffic management platform | ![★](https://img.shields.io/github/stars/PowerDNS/pdns?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Technitium DNS Server**](https://github.com/TechnitiumSoftware/DnsServer) | Powerful open-source DNS server with modern protocol support | ![★](https://img.shields.io/github/stars/TechnitiumSoftware/DnsServer?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Unbound**](https://github.com/NLnetLabs/unbound) | Validating, recursive, caching DNS resolver with DNSSEC support | ![★](https://img.shields.io/github/stars/NLnetLabs/unbound?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="tunnels"></a>
 ### Tunnels
@@ -2366,14 +2388,62 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | [**bore**](https://github.com/ekzhang/bore) | Minimal self-hostable TCP tunnel for exposing localhost through a remote server | ![★](https://img.shields.io/github/stars/ekzhang/bore?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Cloudflared**](https://github.com/cloudflare/cloudflared) | Tunnel local services to the internet securely via Cloudflare | ![★](https://img.shields.io/github/stars/cloudflare/cloudflared?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**frp**](https://github.com/fatedier/frp) | Fast reverse proxy and tunnel for exposing services behind NATs and firewalls | ![★](https://img.shields.io/github/stars/fatedier/frp?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**GOST**](https://github.com/go-gost/gost) | Layered proxy and tunneling toolkit supporting TCP, UDP, TLS, QUIC, SSH, and more | ![★](https://img.shields.io/github/stars/go-gost/gost?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**rathole**](https://github.com/rapiz1/rathole) | High-performance reverse proxy for exposing services behind NAT and firewalls | ![★](https://img.shields.io/github/stars/rapiz1/rathole?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="network-diagnostics-web-analysis"></a>
 ### Network Diagnostics & Web Analysis
 
 | Project | Description | Stars |
 |---|---|---|
+| [**iperf3**](https://github.com/esnet/iperf) | Active network throughput measurement tool for TCP, UDP, and SCTP | ![★](https://img.shields.io/github/stars/esnet/iperf?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**MTR**](https://github.com/traviscross/mtr) | Combines traceroute and ping for continuous path and packet-loss diagnostics | ![★](https://img.shields.io/github/stars/traviscross/mtr?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**OpenSpeedTest**](https://github.com/openspeedtest/Speed-Test) | 100% browser-based HTML5 network speed estimation | ![★](https://img.shields.io/github/stars/openspeedtest/Speed-Test?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Web-Check**](https://github.com/Lissy93/web-check) | All-in-one website analyzer — security, DNS, headers, more | ![★](https://img.shields.io/github/stars/Lissy93/web-check?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="packet-capture-traffic-analysis"></a>
+### Packet Capture & Traffic Analysis
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Arkime**](https://github.com/arkime/arkime) | Large-scale full-packet capture, indexing, search, and session analysis platform | ![★](https://img.shields.io/github/stars/arkime/arkime?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**tcpdump**](https://github.com/the-tcpdump-group/tcpdump) | Command-line packet analyzer for capturing and inspecting network traffic | ![★](https://img.shields.io/github/stars/the-tcpdump-group/tcpdump?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**termshark**](https://github.com/gcla/termshark) | Terminal UI for packet captures powered by tshark and Wireshark dissectors | ![★](https://img.shields.io/github/stars/gcla/termshark?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="ipam-dcim-network-source-of-truth"></a>
+### IPAM, DCIM & Network Source of Truth
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Nautobot**](https://github.com/nautobot/nautobot) | Network source of truth and automation platform for complex infrastructure | ![★](https://img.shields.io/github/stars/nautobot/nautobot?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**NetBox**](https://github.com/netbox-community/netbox) | Network source of truth for IPAM, DCIM, circuits, devices, and automation data | ![★](https://img.shields.io/github/stars/netbox-community/netbox?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**phpIPAM**](https://github.com/phpipam/phpipam) | Web-based IP address management with subnet, VLAN, and device tracking | ![★](https://img.shields.io/github/stars/phpipam/phpipam?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="network-automation-configuration"></a>
+### Network Automation & Configuration
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Batfish**](https://github.com/batfish/batfish) | Network configuration analysis engine for validation, reachability, and policy testing | ![★](https://img.shields.io/github/stars/batfish/batfish?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**NAPALM**](https://github.com/napalm-automation/napalm) | Vendor-neutral Python API for retrieving and changing network device configuration | ![★](https://img.shields.io/github/stars/napalm-automation/napalm?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Nornir**](https://github.com/nornir-automation/nornir) | Python automation framework designed for network inventory and task execution | ![★](https://img.shields.io/github/stars/nornir-automation/nornir?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="network-emulation-labs"></a>
+### Network Emulation & Labs
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Containerlab**](https://github.com/srl-labs/containerlab) | Container-based networking labs with declarative multi-vendor topologies | ![★](https://img.shields.io/github/stars/srl-labs/containerlab?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Mininet**](https://github.com/mininet/mininet) | Lightweight network emulator for virtual hosts, switches, controllers, and links | ![★](https://img.shields.io/github/stars/mininet/mininet?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="routing-network-operating-systems"></a>
+### Routing & Network Operating Systems
+
+| Project | Description | Stars |
+|---|---|---|
+| [**BIRD**](https://github.com/CZ-NIC/bird) | Internet routing daemon supporting BGP, OSPF, RIP, Babel, and multiple routing tables | ![★](https://img.shields.io/github/stars/CZ-NIC/bird?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**FRRouting**](https://github.com/FRRouting/frr) | Production routing suite implementing BGP, OSPF, IS-IS, EVPN, PIM, and more | ![★](https://img.shields.io/github/stars/FRRouting/frr?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**OpenWrt**](https://github.com/openwrt/openwrt) | Linux operating system for embedded routers with package-managed networking features | ![★](https://img.shields.io/github/stars/openwrt/openwrt?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 **[⬆ Back to categories](#-categories)**
 
@@ -2382,7 +2452,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 <a id="security-privacy"></a>
 ## 🔒 Security & Privacy
 
-> Scanning, runtime/network security, supply-chain security, PKI, secrets, privacy, and access control. · **70 projects**
+> AppSec, scanning, runtime/network defense, threat intelligence, DFIR, supply-chain security, PKI, secrets, and privacy. · **88 projects**
 
 <a id="container-kubernetes-security"></a>
 ### Container & Kubernetes Security
@@ -2391,6 +2461,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 |---|---|---|
 | [**Chainguard Images**](https://github.com/chainguard-images/images) | Minimal and hardened container images focused on supply chain security | ![★](https://img.shields.io/github/stars/chainguard-images/images?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Dockle**](https://github.com/goodwithtech/dockle) | Container image linter focused on security best practices | ![★](https://img.shields.io/github/stars/goodwithtech/dockle?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**KubeArmor**](https://github.com/kubearmor/KubeArmor) | Runtime security enforcement for Kubernetes workloads using Linux security primitives | ![★](https://img.shields.io/github/stars/kubearmor/KubeArmor?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Kube-bench**](https://github.com/aquasecurity/kube-bench) | CIS Kubernetes benchmark compliance checker | ![★](https://img.shields.io/github/stars/aquasecurity/kube-bench?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Kube-hunter**](https://github.com/aquasecurity/kube-hunter) | Kubernetes penetration testing and security auditing tool | ![★](https://img.shields.io/github/stars/aquasecurity/kube-hunter?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Kubescape**](https://github.com/kubescape/kubescape) | Kubernetes security platform for risk analysis and compliance scanning | ![★](https://img.shields.io/github/stars/kubescape/kubescape?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
@@ -2420,6 +2491,15 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | [**Suricata**](https://github.com/OISF/suricata) | High-performance network IDS, IPS, and network security monitoring engine | ![★](https://img.shields.io/github/stars/OISF/suricata?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Wazuh**](https://github.com/wazuh/wazuh) | Open-source XDR and SIEM platform for threat detection and compliance | ![★](https://img.shields.io/github/stars/wazuh/wazuh?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Zeek**](https://github.com/zeek/zeek) | Powerful network analysis framework for monitoring and security visibility | ![★](https://img.shields.io/github/stars/zeek/zeek?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="web-application-firewalls-appsec"></a>
+### Web Application Firewalls & AppSec
+
+| Project | Description | Stars |
+|---|---|---|
+| [**BunkerWeb**](https://github.com/bunkerity/bunkerweb) | Cloud-native WAF and WAAP reverse proxy with OWASP CRS, antibot, and security controls | ![★](https://img.shields.io/github/stars/bunkerity/bunkerweb?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Coraza**](https://github.com/corazawaf/coraza) | Go web application firewall compatible with ModSecurity SecLang and OWASP CRS | ![★](https://img.shields.io/github/stars/corazawaf/coraza?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**ModSecurity**](https://github.com/owasp-modsecurity/ModSecurity) | Widely deployed web application firewall engine supporting the OWASP Core Rule Set | ![★](https://img.shields.io/github/stars/owasp-modsecurity/ModSecurity?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="bot-protection-intrusion-prevention"></a>
 ### Bot Protection & Intrusion Prevention
@@ -2455,6 +2535,15 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | [**sqlmap**](https://github.com/sqlmapproject/sqlmap) | Automated SQL injection and database takeover tool | ![★](https://img.shields.io/github/stars/sqlmapproject/sqlmap?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Wireshark**](https://github.com/wireshark/wireshark) | Network protocol analyzer for troubleshooting and packet inspection | ![★](https://img.shields.io/github/stars/wireshark/wireshark?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**XSSHunter**](https://github.com/mandatoryprogrammer/xsshunter) | Platform for detecting blind XSS vulnerabilities | ![★](https://img.shields.io/github/stars/mandatoryprogrammer/xsshunter?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="secret-scanning-credential-detection"></a>
+### Secret Scanning & Credential Detection
+
+| Project | Description | Stars |
+|---|---|---|
+| [**detect-secrets**](https://github.com/Yelp/detect-secrets) | Extensible secret scanner for preventing credentials from entering source repositories | ![★](https://img.shields.io/github/stars/Yelp/detect-secrets?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Gitleaks**](https://github.com/gitleaks/gitleaks) | Fast secret scanner for Git repositories, files, commits, and CI pipelines | ![★](https://img.shields.io/github/stars/gitleaks/gitleaks?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**TruffleHog**](https://github.com/trufflesecurity/trufflehog) | Secret discovery and verification across Git, cloud storage, filesystems, and APIs | ![★](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="secrets-management-encryption"></a>
 ### Secrets Management & Encryption
@@ -2507,11 +2596,38 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | [**Clair**](https://github.com/quay/clair) | Static analysis tool for identifying vulnerabilities in container images | ![★](https://img.shields.io/github/stars/quay/clair?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Dependency-Track**](https://github.com/DependencyTrack/dependency-track) | Software supply chain security platform for SBOM analysis and vulnerability tracking | ![★](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Grype**](https://github.com/anchore/grype) | Vulnerability scanner for container images and filesystems | ![★](https://img.shields.io/github/stars/anchore/grype?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Nuclei**](https://github.com/projectdiscovery/nuclei) | Template-driven vulnerability scanner for web, network, cloud, and infrastructure targets | ![★](https://img.shields.io/github/stars/projectdiscovery/nuclei?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**OpenSCAP**](https://github.com/OpenSCAP/openscap) | Security compliance and vulnerability scanning framework implementing SCAP standards | ![★](https://img.shields.io/github/stars/OpenSCAP/openscap?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**OpenVAS**](https://github.com/greenbone/openvas-scanner) | Full-featured, production-grade vulnerability scanner | ![★](https://img.shields.io/github/stars/greenbone/openvas-scanner?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**OWASP Dependency-Check**](https://github.com/dependency-check/DependencyCheck) | Tool for detecting vulnerable dependencies in software projects | ![★](https://img.shields.io/github/stars/dependency-check/DependencyCheck?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Semgrep**](https://github.com/semgrep/semgrep) | Static analysis tool for finding security issues in source code | ![★](https://img.shields.io/github/stars/semgrep/semgrep?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Trivy**](https://github.com/aquasecurity/trivy) | Security scanner for containers, dependencies, Kubernetes, and IaC | ![★](https://img.shields.io/github/stars/aquasecurity/trivy?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="threat-intelligence-incident-response"></a>
+### Threat Intelligence & Incident Response
+
+| Project | Description | Stars |
+|---|---|---|
+| [**MISP**](https://github.com/MISP/MISP) | Threat intelligence platform for sharing, correlating, and operationalizing indicators | ![★](https://img.shields.io/github/stars/MISP/MISP?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**OpenCTI**](https://github.com/OpenCTI-Platform/opencti) | Cyber threat intelligence platform using STIX2 for knowledge and observable management | ![★](https://img.shields.io/github/stars/OpenCTI-Platform/opencti?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="digital-forensics-dfir"></a>
+### Digital Forensics & DFIR
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Autopsy**](https://github.com/sleuthkit/autopsy) | Digital forensics platform with timeline, file-system, keyword, and artifact analysis | ![★](https://img.shields.io/github/stars/sleuthkit/autopsy?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Timesketch**](https://github.com/google/timesketch) | Collaborative forensic timeline analysis for incident response and investigations | ![★](https://img.shields.io/github/stars/google/timesketch?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Velociraptor**](https://github.com/Velocidex/velociraptor) | Endpoint visibility, digital forensics, and incident response at enterprise scale | ![★](https://img.shields.io/github/stars/Velocidex/velociraptor?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="malware-analysis-detection"></a>
+### Malware Analysis & Detection
+
+| Project | Description | Stars |
+|---|---|---|
+| [**CAPE Sandbox**](https://github.com/kevoreilly/CAPEv2) | Automated malware analysis sandbox focused on payload extraction and behavior analysis | ![★](https://img.shields.io/github/stars/kevoreilly/CAPEv2?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**ClamAV**](https://github.com/Cisco-Talos/clamav) | Cross-platform antivirus engine for detecting malware, trojans, and malicious files | ![★](https://img.shields.io/github/stars/Cisco-Talos/clamav?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**YARA**](https://github.com/VirusTotal/yara) | Pattern-matching engine for identifying and classifying malware and suspicious files | ![★](https://img.shields.io/github/stars/VirusTotal/yara?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="data-platform-security-access"></a>
 ### Data Platform Security & Access
@@ -2537,6 +2653,8 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | Project | Description | Stars |
 |---|---|---|
 | [**CyberChef**](https://github.com/gchq/CyberChef) | Web app for encryption, encoding, compression by GCHQ | ![★](https://img.shields.io/github/stars/gchq/CyberChef?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**ssh-audit**](https://github.com/jtesta/ssh-audit) | SSH server and client security auditing for algorithms, policy, and configuration | ![★](https://img.shields.io/github/stars/jtesta/ssh-audit?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**testssl.sh**](https://github.com/testssl/testssl.sh) | Command-line tester for TLS protocols, ciphers, certificates, and common weaknesses | ![★](https://img.shields.io/github/stars/testssl/testssl.sh?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 **[⬆ Back to categories](#-categories)**
 
@@ -2545,17 +2663,20 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 <a id="frontend-web-development"></a>
 ## 📱 Frontend & Web Development
 
-> UI frameworks, JS runtimes and tooling, cross-platform apps, component libraries, and icons. · **55 projects**
+> Web frameworks, JS runtimes/tooling, state and data layers, forms, components, testing, performance, accessibility, and styling. · **90 projects**
 
 <a id="ui-frameworks-meta-frameworks"></a>
 ### UI Frameworks & Meta-Frameworks
 
 | Project | Description | Stars |
 |---|---|---|
+| [**Alpine.js**](https://github.com/alpinejs/alpine) | Minimal reactive JavaScript framework for composing behavior directly in markup | ![★](https://img.shields.io/github/stars/alpinejs/alpine?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Angular**](https://github.com/angular/angular) | Google's TypeScript-based web application framework | ![★](https://img.shields.io/github/stars/angular/angular?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**htmx**](https://github.com/bigskysoftware/htmx) | AJAX, CSS transitions, WebSockets in HTML — no JS needed | ![★](https://img.shields.io/github/stars/bigskysoftware/htmx?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Next.js**](https://github.com/vercel/next.js) | React framework for production — SSR, SSG, and full-stack | ![★](https://img.shields.io/github/stars/vercel/next.js?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Nuxt**](https://github.com/nuxt/nuxt) | Intuitive Vue framework — SSR, SSG, file-based routing | ![★](https://img.shields.io/github/stars/nuxt/nuxt?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Preact**](https://github.com/preactjs/preact) | Fast lightweight React-compatible UI library with a small runtime footprint | ![★](https://img.shields.io/github/stars/preactjs/preact?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Qwik**](https://github.com/QwikDev/qwik) | Resumable web framework designed for instant-loading applications and fine-grained lazy execution | ![★](https://img.shields.io/github/stars/QwikDev/qwik?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**React**](https://github.com/facebook/react) | Meta's JavaScript library for building user interfaces | ![★](https://img.shields.io/github/stars/facebook/react?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Remix**](https://github.com/remix-run/remix) | Full-stack React framework focused on web fundamentals | ![★](https://img.shields.io/github/stars/remix-run/remix?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Solid.js**](https://github.com/solidjs/solid) | Reactive UI library — fine-grained reactivity without VDOM | ![★](https://img.shields.io/github/stars/solidjs/solid?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
@@ -2568,10 +2689,65 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 
 | Project | Description | Stars |
 |---|---|---|
+| [**Babel**](https://github.com/babel/babel) | JavaScript compiler and transformation toolchain for modern syntax and language features | ![★](https://img.shields.io/github/stars/babel/babel?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Bun**](https://github.com/oven-sh/bun) | All-in-one JS toolkit — runtime + bundler + package manager | ![★](https://img.shields.io/github/stars/oven-sh/bun?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Deno**](https://github.com/denoland/deno) | Secure JavaScript and TypeScript runtime built with Rust | ![★](https://img.shields.io/github/stars/denoland/deno?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**esbuild**](https://github.com/evanw/esbuild) | Extremely fast JavaScript and CSS bundler written in Go | ![★](https://img.shields.io/github/stars/evanw/esbuild?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Node.js**](https://github.com/nodejs/node) | Server-side JavaScript runtime built on V8 with a large web tooling ecosystem | ![★](https://img.shields.io/github/stars/nodejs/node?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Parcel**](https://github.com/parcel-bundler/parcel) | Zero-config web application bundler with HTML, CSS, JavaScript, and asset pipelines | ![★](https://img.shields.io/github/stars/parcel-bundler/parcel?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Rollup**](https://github.com/rollup/rollup) | JavaScript module bundler optimized for libraries and tree-shaken production builds | ![★](https://img.shields.io/github/stars/rollup/rollup?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Rspack**](https://github.com/web-infra-dev/rspack) | Rust-based JavaScript bundler compatible with much of the webpack ecosystem | ![★](https://img.shields.io/github/stars/web-infra-dev/rspack?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**SWC**](https://github.com/swc-project/swc) | Rust-based compiler platform for fast JavaScript and TypeScript transformations | ![★](https://img.shields.io/github/stars/swc-project/swc?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**TypeScript**](https://github.com/microsoft/TypeScript) | Typed superset of JavaScript with static checking and large-scale tooling support | ![★](https://img.shields.io/github/stars/microsoft/TypeScript?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Vite**](https://github.com/vitejs/vite) | Next-gen frontend tooling — instant HMR, lightning fast | ![★](https://img.shields.io/github/stars/vitejs/vite?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**webpack**](https://github.com/webpack/webpack) | Extensible module bundler for JavaScript applications and web assets | ![★](https://img.shields.io/github/stars/webpack/webpack?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="state-management-data-fetching"></a>
+### State Management & Data Fetching
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Pinia**](https://github.com/vuejs/pinia) | Type-safe state management library and official store solution for Vue | ![★](https://img.shields.io/github/stars/vuejs/pinia?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Redux Toolkit**](https://github.com/reduxjs/redux-toolkit) | Official batteries-included toolset for predictable Redux application state | ![★](https://img.shields.io/github/stars/reduxjs/redux-toolkit?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**TanStack Query**](https://github.com/TanStack/query) | Async server-state fetching, caching, synchronization, and mutation utilities | ![★](https://img.shields.io/github/stars/TanStack/query?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Zustand**](https://github.com/pmndrs/zustand) | Small hook-based state management library for React applications | ![★](https://img.shields.io/github/stars/pmndrs/zustand?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="forms-validation-schemas"></a>
+### Forms, Validation & Schemas
+
+| Project | Description | Stars |
+|---|---|---|
+| [**React Hook Form**](https://github.com/react-hook-form/react-hook-form) | Performant form state and validation library for React with minimal re-renders | ![★](https://img.shields.io/github/stars/react-hook-form/react-hook-form?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Valibot**](https://github.com/fabian-hiller/valibot) | Modular type-safe schema validation library with a small bundle footprint | ![★](https://img.shields.io/github/stars/fabian-hiller/valibot?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**vee-validate**](https://github.com/logaretm/vee-validate) | Form validation library for Vue with composables, typed schemas, and field arrays | ![★](https://img.shields.io/github/stars/logaretm/vee-validate?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Zod**](https://github.com/colinhacks/zod) | TypeScript-first schema validation with static type inference | ![★](https://img.shields.io/github/stars/colinhacks/zod?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="web-components"></a>
+### Web Components
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Lit**](https://github.com/lit/lit) | Library for building fast lightweight standards-based Web Components | ![★](https://img.shields.io/github/stars/lit/lit?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Stencil**](https://github.com/ionic-team/stencil) | Compiler and toolchain for reusable standards-based Web Components | ![★](https://img.shields.io/github/stars/ionic-team/stencil?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="web-testing-component-development"></a>
+### Web Testing & Component Development
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Cypress**](https://github.com/cypress-io/cypress) | Browser-based end-to-end and component testing framework for web applications | ![★](https://img.shields.io/github/stars/cypress-io/cypress?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Storybook**](https://github.com/storybookjs/storybook) | Workshop for developing, documenting, testing, and reviewing UI components in isolation | ![★](https://img.shields.io/github/stars/storybookjs/storybook?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Testing Library**](https://github.com/testing-library/dom-testing-library) | DOM testing primitives that encourage tests resembling real user interactions | ![★](https://img.shields.io/github/stars/testing-library/dom-testing-library?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Vitest**](https://github.com/vitest-dev/vitest) | Vite-native unit testing framework with Jest-compatible APIs and fast watch mode | ![★](https://img.shields.io/github/stars/vitest-dev/vitest?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="web-performance-accessibility"></a>
+### Web Performance & Accessibility
+
+| Project | Description | Stars |
+|---|---|---|
+| [**axe-core**](https://github.com/dequelabs/axe-core) | Accessibility testing engine for automated WCAG checks in browsers and test suites | ![★](https://img.shields.io/github/stars/dequelabs/axe-core?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Lighthouse**](https://github.com/GoogleChrome/lighthouse) | Automated audits for performance, accessibility, best practices, and web quality | ![★](https://img.shields.io/github/stars/GoogleChrome/lighthouse?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Pa11y**](https://github.com/pa11y/pa11y) | Automated accessibility testing runner for command line and CI workflows | ![★](https://img.shields.io/github/stars/pa11y/pa11y?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="desktop-cross-platform-apps"></a>
 ### Desktop & Cross-Platform Apps
@@ -2587,7 +2763,20 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 
 | Project | Description | Stars |
 |---|---|---|
+| [**Bootstrap**](https://github.com/twbs/bootstrap) | Responsive CSS framework with layout utilities and reusable interface components | ![★](https://img.shields.io/github/stars/twbs/bootstrap?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Bulma**](https://github.com/jgthms/bulma) | Modern CSS framework based on Flexbox with readable utility and component classes | ![★](https://img.shields.io/github/stars/jgthms/bulma?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Pico CSS**](https://github.com/picocss/pico) | Minimal semantic CSS framework for accessible responsive interfaces | ![★](https://img.shields.io/github/stars/picocss/pico?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Tailwind CSS**](https://github.com/tailwindlabs/tailwindcss) | Utility-first CSS framework — style without leaving HTML | ![★](https://img.shields.io/github/stars/tailwindlabs/tailwindcss?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="css-tooling-styling"></a>
+### CSS Tooling & Styling
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Lightning CSS**](https://github.com/parcel-bundler/lightningcss) | High-performance CSS parser, transformer, minifier, and bundler written in Rust | ![★](https://img.shields.io/github/stars/parcel-bundler/lightningcss?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**PostCSS**](https://github.com/postcss/postcss) | Plugin-based CSS transformation framework used by modern frontend toolchains | ![★](https://img.shields.io/github/stars/postcss/postcss?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Sass**](https://github.com/sass/dart-sass) | Reference Sass implementation for variables, modules, nesting, mixins, and CSS generation | ![★](https://img.shields.io/github/stars/sass/dart-sass?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**UnoCSS**](https://github.com/unocss/unocss) | Instant on-demand atomic CSS engine with extensible presets and transformers | ![★](https://img.shields.io/github/stars/unocss/unocss?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="react-ui-libraries"></a>
 ### React UI Libraries

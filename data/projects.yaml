@@ -4031,6 +4031,11 @@
   desc: Open-source self-hosted coordination server compatible with Tailscale clients
   cat: Networking, VPN & DNS
   sub: VPN & Mesh Networking
+- name: Nebula
+  url: https://github.com/slackhq/nebula
+  desc: Scalable overlay networking tool with mutually authenticated encrypted tunnels
+  cat: Networking, VPN & DNS
+  sub: VPN & Mesh Networking
 - name: NetBird
   url: https://github.com/netbirdio/netbird
   desc: WireGuard-based secure networking platform for private connectivity
@@ -4041,14 +4046,31 @@
   desc: The established, battle-tested open source VPN
   cat: Networking, VPN & DNS
   sub: VPN & Mesh Networking
+- name: Tailscale
+  url: https://github.com/tailscale/tailscale
+  desc: WireGuard-based mesh VPN client with NAT traversal and identity-aware networking
+  cat: Networking, VPN & DNS
+  sub: VPN & Mesh Networking
 - name: WG-Easy
   url: https://github.com/wg-easy/wg-easy
   desc: Easiest way to run WireGuard VPN + web UI
   cat: Networking, VPN & DNS
   sub: VPN & Mesh Networking
+- name: WireGuard
+  url: https://git.zx2c4.com/wireguard-tools
+  desc: Fast modern VPN protocol and userspace tools for encrypted IP networking
+  cat: Networking, VPN & DNS
+  sub: VPN & Mesh Networking
+  alt:
+  - https://github.com/WireGuard/wireguard-tools
 - name: AdGuard Home
   url: https://github.com/AdguardTeam/AdGuardHome
   desc: Self-hosted DNS server with ad and tracker blocking
+  cat: Networking, VPN & DNS
+  sub: DNS, Ad Blocking & Filtering
+- name: Blocky
+  url: https://github.com/0xERR0R/blocky
+  desc: Fast DNS proxy and ad blocker with caching, filtering, and Prometheus metrics
   cat: Networking, VPN & DNS
   sub: DNS, Ad Blocking & Filtering
 - name: CoreDNS
@@ -4061,9 +4083,19 @@
   desc: Network-wide ad blocker and DNS sinkhole for improving privacy
   cat: Networking, VPN & DNS
   sub: DNS, Ad Blocking & Filtering
+- name: PowerDNS
+  url: https://github.com/PowerDNS/pdns
+  desc: Authoritative DNS, recursive DNS, and dnsdist traffic management platform
+  cat: Networking, VPN & DNS
+  sub: DNS, Ad Blocking & Filtering
 - name: Technitium DNS Server
   url: https://github.com/TechnitiumSoftware/DnsServer
   desc: Powerful open-source DNS server with modern protocol support
+  cat: Networking, VPN & DNS
+  sub: DNS, Ad Blocking & Filtering
+- name: Unbound
+  url: https://github.com/NLnetLabs/unbound
+  desc: Validating, recursive, caching DNS resolver with DNSSEC support
   cat: Networking, VPN & DNS
   sub: DNS, Ad Blocking & Filtering
 - name: bore
@@ -4081,6 +4113,26 @@
   desc: Fast reverse proxy and tunnel for exposing services behind NATs and firewalls
   cat: Networking, VPN & DNS
   sub: Tunnels
+- name: GOST
+  url: https://github.com/go-gost/gost
+  desc: Layered proxy and tunneling toolkit supporting TCP, UDP, TLS, QUIC, SSH, and more
+  cat: Networking, VPN & DNS
+  sub: Tunnels
+- name: rathole
+  url: https://github.com/rapiz1/rathole
+  desc: High-performance reverse proxy for exposing services behind NAT and firewalls
+  cat: Networking, VPN & DNS
+  sub: Tunnels
+- name: iperf3
+  url: https://github.com/esnet/iperf
+  desc: Active network throughput measurement tool for TCP, UDP, and SCTP
+  cat: Networking, VPN & DNS
+  sub: Network Diagnostics & Web Analysis
+- name: MTR
+  url: https://github.com/traviscross/mtr
+  desc: Combines traceroute and ping for continuous path and packet-loss diagnostics
+  cat: Networking, VPN & DNS
+  sub: Network Diagnostics & Web Analysis
 - name: OpenSpeedTest
   url: https://github.com/openspeedtest/Speed-Test
   desc: 100% browser-based HTML5 network speed estimation
@@ -4091,6 +4143,76 @@
   desc: All-in-one website analyzer — security, DNS, headers, more
   cat: Networking, VPN & DNS
   sub: Network Diagnostics & Web Analysis
+- name: Arkime
+  url: https://github.com/arkime/arkime
+  desc: Large-scale full-packet capture, indexing, search, and session analysis platform
+  cat: Networking, VPN & DNS
+  sub: Packet Capture & Traffic Analysis
+- name: tcpdump
+  url: https://github.com/the-tcpdump-group/tcpdump
+  desc: Command-line packet analyzer for capturing and inspecting network traffic
+  cat: Networking, VPN & DNS
+  sub: Packet Capture & Traffic Analysis
+- name: termshark
+  url: https://github.com/gcla/termshark
+  desc: Terminal UI for packet captures powered by tshark and Wireshark dissectors
+  cat: Networking, VPN & DNS
+  sub: Packet Capture & Traffic Analysis
+- name: Nautobot
+  url: https://github.com/nautobot/nautobot
+  desc: Network source of truth and automation platform for complex infrastructure
+  cat: Networking, VPN & DNS
+  sub: IPAM, DCIM & Network Source of Truth
+- name: NetBox
+  url: https://github.com/netbox-community/netbox
+  desc: Network source of truth for IPAM, DCIM, circuits, devices, and automation data
+  cat: Networking, VPN & DNS
+  sub: IPAM, DCIM & Network Source of Truth
+- name: phpIPAM
+  url: https://github.com/phpipam/phpipam
+  desc: Web-based IP address management with subnet, VLAN, and device tracking
+  cat: Networking, VPN & DNS
+  sub: IPAM, DCIM & Network Source of Truth
+- name: Batfish
+  url: https://github.com/batfish/batfish
+  desc: Network configuration analysis engine for validation, reachability, and policy testing
+  cat: Networking, VPN & DNS
+  sub: Network Automation & Configuration
+- name: NAPALM
+  url: https://github.com/napalm-automation/napalm
+  desc: Vendor-neutral Python API for retrieving and changing network device configuration
+  cat: Networking, VPN & DNS
+  sub: Network Automation & Configuration
+- name: Nornir
+  url: https://github.com/nornir-automation/nornir
+  desc: Python automation framework designed for network inventory and task execution
+  cat: Networking, VPN & DNS
+  sub: Network Automation & Configuration
+- name: Containerlab
+  url: https://github.com/srl-labs/containerlab
+  desc: Container-based networking labs with declarative multi-vendor topologies
+  cat: Networking, VPN & DNS
+  sub: Network Emulation & Labs
+- name: Mininet
+  url: https://github.com/mininet/mininet
+  desc: Lightweight network emulator for virtual hosts, switches, controllers, and links
+  cat: Networking, VPN & DNS
+  sub: Network Emulation & Labs
+- name: BIRD
+  url: https://github.com/CZ-NIC/bird
+  desc: Internet routing daemon supporting BGP, OSPF, RIP, Babel, and multiple routing tables
+  cat: Networking, VPN & DNS
+  sub: Routing & Network Operating Systems
+- name: FRRouting
+  url: https://github.com/FRRouting/frr
+  desc: Production routing suite implementing BGP, OSPF, IS-IS, EVPN, PIM, and more
+  cat: Networking, VPN & DNS
+  sub: Routing & Network Operating Systems
+- name: OpenWrt
+  url: https://github.com/openwrt/openwrt
+  desc: Linux operating system for embedded routers with package-managed networking features
+  cat: Networking, VPN & DNS
+  sub: Routing & Network Operating Systems
 - name: Chainguard Images
   url: https://github.com/chainguard-images/images
   desc: Minimal and hardened container images focused on supply chain security
@@ -4099,6 +4221,11 @@
 - name: Dockle
   url: https://github.com/goodwithtech/dockle
   desc: Container image linter focused on security best practices
+  cat: Security & Privacy
+  sub: Container & Kubernetes Security
+- name: KubeArmor
+  url: https://github.com/kubearmor/KubeArmor
+  desc: Runtime security enforcement for Kubernetes workloads using Linux security primitives
   cat: Security & Privacy
   sub: Container & Kubernetes Security
 - name: Kube-bench
@@ -4188,6 +4315,21 @@
   desc: Powerful network analysis framework for monitoring and security visibility
   cat: Security & Privacy
   sub: Network Security, IDS & SIEM
+- name: BunkerWeb
+  url: https://github.com/bunkerity/bunkerweb
+  desc: Cloud-native WAF and WAAP reverse proxy with OWASP CRS, antibot, and security controls
+  cat: Security & Privacy
+  sub: Web Application Firewalls & AppSec
+- name: Coraza
+  url: https://github.com/corazawaf/coraza
+  desc: Go web application firewall compatible with ModSecurity SecLang and OWASP CRS
+  cat: Security & Privacy
+  sub: Web Application Firewalls & AppSec
+- name: ModSecurity
+  url: https://github.com/owasp-modsecurity/ModSecurity
+  desc: Widely deployed web application firewall engine supporting the OWASP Core Rule Set
+  cat: Security & Privacy
+  sub: Web Application Firewalls & AppSec
 - name: Anubis
   url: https://github.com/TecharoHQ/anubis
   desc: Bot protector — proof-of-work challenge to block scrapers
@@ -4273,6 +4415,21 @@
   desc: Platform for detecting blind XSS vulnerabilities
   cat: Security & Privacy
   sub: Reverse Engineering & Pentesting
+- name: detect-secrets
+  url: https://github.com/Yelp/detect-secrets
+  desc: Extensible secret scanner for preventing credentials from entering source repositories
+  cat: Security & Privacy
+  sub: Secret Scanning & Credential Detection
+- name: Gitleaks
+  url: https://github.com/gitleaks/gitleaks
+  desc: Fast secret scanner for Git repositories, files, commits, and CI pipelines
+  cat: Security & Privacy
+  sub: Secret Scanning & Credential Detection
+- name: TruffleHog
+  url: https://github.com/trufflesecurity/trufflehog
+  desc: Secret discovery and verification across Git, cloud storage, filesystems, and APIs
+  cat: Security & Privacy
+  sub: Secret Scanning & Credential Detection
 - name: age
   url: https://github.com/FiloSottile/age
   desc: Simple, modern, and secure file encryption tool
@@ -4385,6 +4542,11 @@
   desc: Vulnerability scanner for container images and filesystems
   cat: Security & Privacy
   sub: Vulnerability Scanning & Static Analysis
+- name: Nuclei
+  url: https://github.com/projectdiscovery/nuclei
+  desc: Template-driven vulnerability scanner for web, network, cloud, and infrastructure targets
+  cat: Security & Privacy
+  sub: Vulnerability Scanning & Static Analysis
 - name: OpenSCAP
   url: https://github.com/OpenSCAP/openscap
   desc: Security compliance and vulnerability scanning framework implementing SCAP standards
@@ -4410,6 +4572,46 @@
   desc: Security scanner for containers, dependencies, Kubernetes, and IaC
   cat: Security & Privacy
   sub: Vulnerability Scanning & Static Analysis
+- name: MISP
+  url: https://github.com/MISP/MISP
+  desc: Threat intelligence platform for sharing, correlating, and operationalizing indicators
+  cat: Security & Privacy
+  sub: Threat Intelligence & Incident Response
+- name: OpenCTI
+  url: https://github.com/OpenCTI-Platform/opencti
+  desc: Cyber threat intelligence platform using STIX2 for knowledge and observable management
+  cat: Security & Privacy
+  sub: Threat Intelligence & Incident Response
+- name: Autopsy
+  url: https://github.com/sleuthkit/autopsy
+  desc: Digital forensics platform with timeline, file-system, keyword, and artifact analysis
+  cat: Security & Privacy
+  sub: Digital Forensics & DFIR
+- name: Timesketch
+  url: https://github.com/google/timesketch
+  desc: Collaborative forensic timeline analysis for incident response and investigations
+  cat: Security & Privacy
+  sub: Digital Forensics & DFIR
+- name: Velociraptor
+  url: https://github.com/Velocidex/velociraptor
+  desc: Endpoint visibility, digital forensics, and incident response at enterprise scale
+  cat: Security & Privacy
+  sub: Digital Forensics & DFIR
+- name: CAPE Sandbox
+  url: https://github.com/kevoreilly/CAPEv2
+  desc: Automated malware analysis sandbox focused on payload extraction and behavior analysis
+  cat: Security & Privacy
+  sub: Malware Analysis & Detection
+- name: ClamAV
+  url: https://github.com/Cisco-Talos/clamav
+  desc: Cross-platform antivirus engine for detecting malware, trojans, and malicious files
+  cat: Security & Privacy
+  sub: Malware Analysis & Detection
+- name: YARA
+  url: https://github.com/VirusTotal/yara
+  desc: Pattern-matching engine for identifying and classifying malware and suspicious files
+  cat: Security & Privacy
+  sub: Malware Analysis & Detection
 - name: Apache Knox
   url: https://github.com/apache/knox
   desc: A gateway and SSO service for managing access to Hadoop clusters
@@ -4445,6 +4647,21 @@
   desc: Web app for encryption, encoding, compression by GCHQ
   cat: Security & Privacy
   sub: Security Utilities
+- name: ssh-audit
+  url: https://github.com/jtesta/ssh-audit
+  desc: SSH server and client security auditing for algorithms, policy, and configuration
+  cat: Security & Privacy
+  sub: Security Utilities
+- name: testssl.sh
+  url: https://github.com/testssl/testssl.sh
+  desc: Command-line tester for TLS protocols, ciphers, certificates, and common weaknesses
+  cat: Security & Privacy
+  sub: Security Utilities
+- name: Alpine.js
+  url: https://github.com/alpinejs/alpine
+  desc: Minimal reactive JavaScript framework for composing behavior directly in markup
+  cat: Frontend & Web Development
+  sub: UI Frameworks & Meta-Frameworks
 - name: Angular
   url: https://github.com/angular/angular
   desc: Google's TypeScript-based web application framework
@@ -4463,6 +4680,16 @@
 - name: Nuxt
   url: https://github.com/nuxt/nuxt
   desc: Intuitive Vue framework — SSR, SSG, file-based routing
+  cat: Frontend & Web Development
+  sub: UI Frameworks & Meta-Frameworks
+- name: Preact
+  url: https://github.com/preactjs/preact
+  desc: Fast lightweight React-compatible UI library with a small runtime footprint
+  cat: Frontend & Web Development
+  sub: UI Frameworks & Meta-Frameworks
+- name: Qwik
+  url: https://github.com/QwikDev/qwik
+  desc: Resumable web framework designed for instant-loading applications and fine-grained lazy execution
   cat: Frontend & Web Development
   sub: UI Frameworks & Meta-Frameworks
 - name: React
@@ -4495,6 +4722,11 @@
   desc: Progressive JavaScript framework — approachable, versatile
   cat: Frontend & Web Development
   sub: UI Frameworks & Meta-Frameworks
+- name: Babel
+  url: https://github.com/babel/babel
+  desc: JavaScript compiler and transformation toolchain for modern syntax and language features
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
 - name: Bun
   url: https://github.com/oven-sh/bun
   desc: All-in-one JS toolkit — runtime + bundler + package manager
@@ -4510,11 +4742,131 @@
   desc: Extremely fast JavaScript and CSS bundler written in Go
   cat: Frontend & Web Development
   sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: Node.js
+  url: https://github.com/nodejs/node
+  desc: Server-side JavaScript runtime built on V8 with a large web tooling ecosystem
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: Parcel
+  url: https://github.com/parcel-bundler/parcel
+  desc: Zero-config web application bundler with HTML, CSS, JavaScript, and asset pipelines
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: Rollup
+  url: https://github.com/rollup/rollup
+  desc: JavaScript module bundler optimized for libraries and tree-shaken production builds
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: Rspack
+  url: https://github.com/web-infra-dev/rspack
+  desc: Rust-based JavaScript bundler compatible with much of the webpack ecosystem
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: SWC
+  url: https://github.com/swc-project/swc
+  desc: Rust-based compiler platform for fast JavaScript and TypeScript transformations
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: TypeScript
+  url: https://github.com/microsoft/TypeScript
+  desc: Typed superset of JavaScript with static checking and large-scale tooling support
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
 - name: Vite
   url: https://github.com/vitejs/vite
   desc: Next-gen frontend tooling — instant HMR, lightning fast
   cat: Frontend & Web Development
   sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: webpack
+  url: https://github.com/webpack/webpack
+  desc: Extensible module bundler for JavaScript applications and web assets
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: Pinia
+  url: https://github.com/vuejs/pinia
+  desc: Type-safe state management library and official store solution for Vue
+  cat: Frontend & Web Development
+  sub: State Management & Data Fetching
+- name: Redux Toolkit
+  url: https://github.com/reduxjs/redux-toolkit
+  desc: Official batteries-included toolset for predictable Redux application state
+  cat: Frontend & Web Development
+  sub: State Management & Data Fetching
+- name: TanStack Query
+  url: https://github.com/TanStack/query
+  desc: Async server-state fetching, caching, synchronization, and mutation utilities
+  cat: Frontend & Web Development
+  sub: State Management & Data Fetching
+- name: Zustand
+  url: https://github.com/pmndrs/zustand
+  desc: Small hook-based state management library for React applications
+  cat: Frontend & Web Development
+  sub: State Management & Data Fetching
+- name: React Hook Form
+  url: https://github.com/react-hook-form/react-hook-form
+  desc: Performant form state and validation library for React with minimal re-renders
+  cat: Frontend & Web Development
+  sub: Forms, Validation & Schemas
+- name: Valibot
+  url: https://github.com/fabian-hiller/valibot
+  desc: Modular type-safe schema validation library with a small bundle footprint
+  cat: Frontend & Web Development
+  sub: Forms, Validation & Schemas
+- name: vee-validate
+  url: https://github.com/logaretm/vee-validate
+  desc: Form validation library for Vue with composables, typed schemas, and field arrays
+  cat: Frontend & Web Development
+  sub: Forms, Validation & Schemas
+- name: Zod
+  url: https://github.com/colinhacks/zod
+  desc: TypeScript-first schema validation with static type inference
+  cat: Frontend & Web Development
+  sub: Forms, Validation & Schemas
+- name: Lit
+  url: https://github.com/lit/lit
+  desc: Library for building fast lightweight standards-based Web Components
+  cat: Frontend & Web Development
+  sub: Web Components
+- name: Stencil
+  url: https://github.com/ionic-team/stencil
+  desc: Compiler and toolchain for reusable standards-based Web Components
+  cat: Frontend & Web Development
+  sub: Web Components
+- name: Cypress
+  url: https://github.com/cypress-io/cypress
+  desc: Browser-based end-to-end and component testing framework for web applications
+  cat: Frontend & Web Development
+  sub: Web Testing & Component Development
+- name: Storybook
+  url: https://github.com/storybookjs/storybook
+  desc: Workshop for developing, documenting, testing, and reviewing UI components in isolation
+  cat: Frontend & Web Development
+  sub: Web Testing & Component Development
+- name: Testing Library
+  url: https://github.com/testing-library/dom-testing-library
+  desc: DOM testing primitives that encourage tests resembling real user interactions
+  cat: Frontend & Web Development
+  sub: Web Testing & Component Development
+- name: Vitest
+  url: https://github.com/vitest-dev/vitest
+  desc: Vite-native unit testing framework with Jest-compatible APIs and fast watch mode
+  cat: Frontend & Web Development
+  sub: Web Testing & Component Development
+- name: axe-core
+  url: https://github.com/dequelabs/axe-core
+  desc: Accessibility testing engine for automated WCAG checks in browsers and test suites
+  cat: Frontend & Web Development
+  sub: Web Performance & Accessibility
+- name: Lighthouse
+  url: https://github.com/GoogleChrome/lighthouse
+  desc: Automated audits for performance, accessibility, best practices, and web quality
+  cat: Frontend & Web Development
+  sub: Web Performance & Accessibility
+- name: Pa11y
+  url: https://github.com/pa11y/pa11y
+  desc: Automated accessibility testing runner for command line and CI workflows
+  cat: Frontend & Web Development
+  sub: Web Performance & Accessibility
 - name: Electron
   url: https://github.com/electron/electron
   desc: Build desktop apps using web technologies
@@ -4530,11 +4882,46 @@
   desc: Build tiny, blazing-fast desktop apps with Rust and web tech
   cat: Frontend & Web Development
   sub: Desktop & Cross-Platform Apps
+- name: Bootstrap
+  url: https://github.com/twbs/bootstrap
+  desc: Responsive CSS framework with layout utilities and reusable interface components
+  cat: Frontend & Web Development
+  sub: CSS Frameworks
+- name: Bulma
+  url: https://github.com/jgthms/bulma
+  desc: Modern CSS framework based on Flexbox with readable utility and component classes
+  cat: Frontend & Web Development
+  sub: CSS Frameworks
+- name: Pico CSS
+  url: https://github.com/picocss/pico
+  desc: Minimal semantic CSS framework for accessible responsive interfaces
+  cat: Frontend & Web Development
+  sub: CSS Frameworks
 - name: Tailwind CSS
   url: https://github.com/tailwindlabs/tailwindcss
   desc: Utility-first CSS framework — style without leaving HTML
   cat: Frontend & Web Development
   sub: CSS Frameworks
+- name: Lightning CSS
+  url: https://github.com/parcel-bundler/lightningcss
+  desc: High-performance CSS parser, transformer, minifier, and bundler written in Rust
+  cat: Frontend & Web Development
+  sub: CSS Tooling & Styling
+- name: PostCSS
+  url: https://github.com/postcss/postcss
+  desc: Plugin-based CSS transformation framework used by modern frontend toolchains
+  cat: Frontend & Web Development
+  sub: CSS Tooling & Styling
+- name: Sass
+  url: https://github.com/sass/dart-sass
+  desc: Reference Sass implementation for variables, modules, nesting, mixins, and CSS generation
+  cat: Frontend & Web Development
+  sub: CSS Tooling & Styling
+- name: UnoCSS
+  url: https://github.com/unocss/unocss
+  desc: Instant on-demand atomic CSS engine with extensible presets and transformers
+  cat: Frontend & Web Development
+  sub: CSS Tooling & Styling
 - name: Ant Design
   url: https://github.com/ant-design/ant-design
   desc: An enterprise-class design system with robust and consistent React components
@@ -4642,8 +5029,7 @@
   sub: UI Components
 - name: loading-ui
   url: https://github.com/turbostarter/loading-ui
-  desc: Beautiful open-source loading states, skeletons, and animated placeholders built for modern React apps with Tailwind
-    CSS
+  desc: Beautiful open-source loading states, skeletons, and animated placeholders built for modern React apps with Tailwind CSS
   cat: Frontend & Web Development
   sub: UI Components
 - name: shadcn/ui
