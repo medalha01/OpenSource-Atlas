@@ -8,7 +8,7 @@
 
 *One place to find the tool for the job — curated open-source projects, status-labelled and linked straight to their source repositories.*
 
-![b](https://img.shields.io/badge/projects-1117-f4c542?style=for-the-badge&labelColor=1c1c1c) ![b](https://img.shields.io/badge/categories-27-4c9aff?style=for-the-badge&labelColor=1c1c1c) ![b](https://img.shields.io/badge/license-CC0--1.0-brightgreen?style=for-the-badge&labelColor=1c1c1c) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+![b](https://img.shields.io/badge/projects-1199-f4c542?style=for-the-badge&labelColor=1c1c1c) ![b](https://img.shields.io/badge/categories-27-4c9aff?style=for-the-badge&labelColor=1c1c1c) ![b](https://img.shields.io/badge/license-CC0--1.0-brightgreen?style=for-the-badge&labelColor=1c1c1c) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 [**Browse categories ↓**](#-categories) &nbsp;·&nbsp; [**Add a project**](CONTRIBUTING.md) &nbsp;·&nbsp; [**Report a dead link**](../../issues/new?template=broken-link.yml) &nbsp;·&nbsp; [**Security**](SECURITY.md)
 
@@ -22,7 +22,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 
 | | |
 |---|---|
-| 🗂️ **27 categories, 233 subcategories** | From AI and databases to security, self-hosting, and mobile — organized so you can navigate by the problem you're solving. |
+| 🗂️ **27 categories, 239 subcategories** | From AI and databases to security, self-hosting, and mobile — organized so you can navigate by the problem you're solving. |
 | 🔗 **Direct repository links** | Every entry points at the actual source repo. No aggregators, no paywalls, no redirects. |
 | ✅ **Maintained & open source** | Entries must have a clear OSI/free license and recent activity. Inactive and archived projects are labelled, not hidden. |
 | 🤖 **Automatically checked** | Pull requests run deterministic schema/build validation, while scheduled CI performs external link checks (see [`tools/`](tools)). |
@@ -31,7 +31,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 
 > ⭐ **If this saves you time, please [star the repo](../../stargazers).** It takes two seconds and helps other developers find it.
 
-<sub>Projects: 1117 · Categories: 27 · Subcategories: 233</sub>
+<sub>Projects: 1199 · Categories: 27 · Subcategories: 239</sub>
 
 ---
 
@@ -98,14 +98,14 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 </td></tr>
 <tr><td valign="top" width="50%">
 
-**🔐 [Authentication, Identity & Passwords](#authentication-identity-passwords)** · 27
+**🔐 [Authentication, Identity & Passwords](#authentication-identity-passwords)** · 41
 
-- [Identity Providers & SSO](#identity-providers-sso) `9`
-- [Auth Services & Libraries](#auth-services-libraries) `4`
-- [Authorization & Policy Engines](#authorization-policy-engines) `7`
+- [Identity Providers & SSO](#identity-providers-sso) `12`
+- [Auth Services & Libraries](#auth-services-libraries) `11`
+- [Authorization & Policy Engines](#authorization-policy-engines) `8`
 - [Identity Governance & Provisioning](#identity-governance-provisioning) `2`
-- [Directory Services (LDAP)](#directory-services-ldap) `2`
-- [Password Managers & 2FA](#password-managers-2fa) `3`
+- [Directory Services (LDAP)](#directory-services-ldap) `3`
+- [Password Managers & 2FA](#password-managers-2fa) `5`
 
 </td><td valign="top" width="50%">
 
@@ -145,10 +145,10 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 </td></tr>
 <tr><td valign="top" width="50%">
 
-**📚 [CMS, Blogging & Static Sites](#cms-blogging-static-sites)** · 15
+**📚 [CMS, Blogging & Static Sites](#cms-blogging-static-sites)** · 14
 
 - [Content Management Systems](#content-management-systems) `8`
-- [Static Site Generators & Documentation Sites](#static-site-generators-documentation-sites) `7`
+- [Static Site Generators & Documentation Sites](#static-site-generators-documentation-sites) `6`
 
 </td><td valign="top" width="50%">
 
@@ -285,7 +285,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 </td></tr>
 <tr><td valign="top" width="50%">
 
-**🖥️ [DevOps & Infrastructure](#devops-infrastructure)** · 90
+**🖥️ [DevOps & Infrastructure](#devops-infrastructure)** · 110
 
 - [Containers & Virtualization](#containers-virtualization) `7`
 - [Kubernetes & Orchestration](#kubernetes-orchestration) `5`
@@ -303,7 +303,9 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 - [PaaS & Self-Hosting Platforms](#paas-self-hosting-platforms) `8`
 - [Container & Package Registries](#container-package-registries) `3`
 - [Artifact Repositories & Package Proxies](#artifact-repositories-package-proxies) `4`
-- [Real-Time Communication Infrastructure](#real-time-communication-infrastructure) `3`
+- [Real-Time Communication Infrastructure](#real-time-communication-infrastructure) `2`
+- [WebRTC & Real-Time Media Servers](#webrtc-real-time-media-servers) `7`
+- [VoIP, SIP & Telephony](#voip-sip-telephony) `14`
 - [Messaging APIs & Gateways](#messaging-apis-gateways) `4`
 - [Service Discovery & Coordination](#service-discovery-coordination) `3`
 - [Cost Management](#cost-management) `3`
@@ -349,13 +351,15 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 
 </td><td valign="top" width="50%">
 
-**📱 [Frontend & Web Development](#frontend-web-development)** · 90
+**📱 [Frontend & Web Development](#frontend-web-development)** · 127
 
-- [UI Frameworks & Meta-Frameworks](#ui-frameworks-meta-frameworks) `13`
-- [JavaScript Runtimes, Bundlers & Build Tools](#javascript-runtimes-bundlers-build-tools) `12`
+- [UI Frameworks](#ui-frameworks) `16`
+- [Meta-Frameworks](#meta-frameworks) `13`
+- [JavaScript Runtimes, Bundlers & Build Tools](#javascript-runtimes-bundlers-build-tools) `17`
 - [State Management & Data Fetching](#state-management-data-fetching) `4`
 - [Forms, Validation & Schemas](#forms-validation-schemas) `4`
-- [Web Components](#web-components) `2`
+- [Web Components](#web-components) `8`
+- [Web Component UI Libraries](#web-component-ui-libraries) `10`
 - [Web Testing & Component Development](#web-testing-component-development) `4`
 - [Web Performance & Accessibility](#web-performance-accessibility) `3`
 - [Desktop & Cross-Platform Apps](#desktop-cross-platform-apps) `3`
@@ -386,10 +390,12 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 </td></tr>
 <tr><td valign="top" width="50%">
 
-**🤝 [Productivity, Collaboration & Business](#productivity-collaboration-business)** · 29
+**🤝 [Productivity, Collaboration & Business](#productivity-collaboration-business)** · 41
 
 - [Project Management & Issue Tracking](#project-management-issue-tracking) `9`
 - [Workspaces & Collaboration](#workspaces-collaboration) `2`
+- [Team Chat & Messaging Servers](#team-chat-messaging-servers) `7`
+- [Video Conferencing & Voice Chat](#video-conferencing-voice-chat) `5`
 - [Customer Support & Live Chat](#customer-support-live-chat) `4`
 - [CRM & Growth](#crm-growth) `2`
 - [Email Marketing & Newsletters](#email-marketing-newsletters) `2`
@@ -796,7 +802,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 <a id="authentication-identity-passwords"></a>
 ## 🔐 Authentication, Identity & Passwords
 
-> SSO, OAuth2/OIDC/SAML, authorization, identity governance, directories, passwords, and 2FA. · **27 projects**
+> SSO, OAuth2/OIDC/SAML, authorization, identity governance, directories, passwords, and 2FA. · **41 projects**
 
 <a id="identity-providers-sso"></a>
 ### Identity Providers & SSO
@@ -806,11 +812,14 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | [**Authelia**](https://github.com/authelia/authelia) | Single Sign-On MFA portal — protects all your web apps | ![★](https://img.shields.io/github/stars/authelia/authelia?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Authentik**](https://github.com/goauthentik/authentik) | Flexible, feature-rich identity provider for any use case | ![★](https://img.shields.io/github/stars/goauthentik/authentik?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Casdoor**](https://github.com/casdoor/casdoor) | UI-first IAM/SSO — OAuth2, OIDC, SAML, LDAP, WebAuthn | ![★](https://img.shields.io/github/stars/casdoor/casdoor?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Dex**](https://github.com/dexidp/dex) | OpenID Connect identity provider that federates LDAP, SAML, GitHub, and other connectors | ![★](https://img.shields.io/github/stars/dexidp/dex?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Janssen**](https://github.com/JanssenProject/jans) | Linux Foundation cloud-native identity and access management platform (Gluu successor) | ![★](https://img.shields.io/github/stars/JanssenProject/jans?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Kanidm**](https://github.com/kanidm/kanidm) | Modern identity management server focused on security and simplicity | ![★](https://img.shields.io/github/stars/kanidm/kanidm?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Keycloak**](https://github.com/keycloak/keycloak) | Full-featured open source IAM solution (SSO, OAuth2, OIDC, SAML) backed by Red Hat | ![★](https://img.shields.io/github/stars/keycloak/keycloak?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Logto**](https://github.com/logto-io/logto) | Developer-first identity platform — CIAM and workforce IAM | ![★](https://img.shields.io/github/stars/logto-io/logto?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Ory Hydra**](https://github.com/ory/hydra) | Hardened, OpenID Certified OAuth 2.0 server in Go | ![★](https://img.shields.io/github/stars/ory/hydra?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Pocket ID**](https://github.com/pocket-id/pocket-id) | Simple OIDC provider with passkey-first authentication | ![★](https://img.shields.io/github/stars/pocket-id/pocket-id?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Tinyauth**](https://github.com/tinyauthapp/tinyauth) | Lightweight forward-auth login screen and OIDC provider for self-hosted apps | ![★](https://img.shields.io/github/stars/tinyauthapp/tinyauth?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Zitadel**](https://github.com/zitadel/zitadel) | Cloud-native IAM with multi-tenancy, OIDC, SAML, OAuth2 | ![★](https://img.shields.io/github/stars/zitadel/zitadel?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="auth-services-libraries"></a>
@@ -818,10 +827,17 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 
 | Project | Description | Stars |
 |---|---|---|
+| [**Auth.js**](https://github.com/nextauthjs/next-auth) | Authentication for Next.js and other web frameworks with OAuth, email, and credentials | ![★](https://img.shields.io/github/stars/nextauthjs/next-auth?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Authorizer**](https://github.com/authorizerdev/authorizer) | Build secure apps faster — auth in 10x less code | ![★](https://img.shields.io/github/stars/authorizerdev/authorizer?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Better Auth**](https://github.com/better-auth/better-auth) | Framework-agnostic TypeScript auth library with plugins for 2FA, passkeys, orgs, and SSO | ![★](https://img.shields.io/github/stars/better-auth/better-auth?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Hanko**](https://github.com/teamhanko/hanko) | Passkey-first authentication and user management with drop-in web components | ![★](https://img.shields.io/github/stars/teamhanko/hanko?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**oidc-provider**](https://github.com/panva/node-oidc-provider) | OpenID Certified OAuth 2.0 authorization server and OpenID Connect provider for Node.js | ![★](https://img.shields.io/github/stars/panva/node-oidc-provider?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**OpenIddict**](https://github.com/openiddict/openiddict-core) | Flexible OpenID Connect server and client stack for ASP.NET Core and .NET | ![★](https://img.shields.io/github/stars/openiddict/openiddict-core?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Ory Kratos**](https://github.com/ory/kratos) | Security-focused authentication system with a fully open source core | ![★](https://img.shields.io/github/stars/ory/kratos?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Passport.js**](https://github.com/jaredhanson/passport) `⚠️ inactive` | Simple, unobtrusive authentication middleware for Node.js with 500+ strategies | ![★](https://img.shields.io/github/stars/jaredhanson/passport?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Stack Auth**](https://github.com/stack-auth/stack) | Open source Auth0/Clerk alternative with Next.js integration | ![★](https://img.shields.io/github/stars/stack-auth/stack?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Supabase Auth**](https://github.com/supabase/auth) | JWT-based auth with RLS, built into Supabase | ![★](https://img.shields.io/github/stars/supabase/auth?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**SuperTokens**](https://github.com/supertokens/supertokens-core) | Open-source Auth0/Firebase Auth alternative with sessions, social login, and MFA | ![★](https://img.shields.io/github/stars/supertokens/supertokens-core?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="authorization-policy-engines"></a>
 ### Authorization & Policy Engines
@@ -834,6 +850,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | [**OpenFGA**](https://github.com/openfga/openfga) | Fine-grained relationship-based authorization engine inspired by Google Zanzibar | ![★](https://img.shields.io/github/stars/openfga/openfga?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Open Policy Agent**](https://github.com/open-policy-agent/opa) | General-purpose policy engine for authorization and policy-as-code decisions | ![★](https://img.shields.io/github/stars/open-policy-agent/opa?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Ory Keto**](https://github.com/ory/keto) | Zanzibar-inspired permission server for relationship-based access control | ![★](https://img.shields.io/github/stars/ory/keto?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Permify**](https://github.com/Permify/permify) | Zanzibar-inspired authorization service for fine-grained, scalable permissions | ![★](https://img.shields.io/github/stars/Permify/permify?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**SpiceDB**](https://github.com/authzed/spicedb) | Distributed Zanzibar-inspired database for fine-grained authorization relationships | ![★](https://img.shields.io/github/stars/authzed/spicedb?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="identity-governance-provisioning"></a>
@@ -850,6 +867,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | Project | Description | Stars |
 |---|---|---|
 | [**389 Directory Server**](https://github.com/389ds/389-ds-base) | Enterprise-grade LDAP directory server with replication, failover, and administration tooling | ![★](https://img.shields.io/github/stars/389ds/389-ds-base?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**FreeIPA**](https://github.com/freeipa/freeipa) | Integrated identity management — LDAP, Kerberos, DNS, and PKI for Linux environments | ![★](https://img.shields.io/github/stars/freeipa/freeipa?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**LLDAP**](https://github.com/lldap/lldap) | Lightweight LDAP server for small teams and homelab setups | ![★](https://img.shields.io/github/stars/lldap/lldap?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="password-managers-2fa"></a>
@@ -858,6 +876,8 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | Project | Description | Stars |
 |---|---|---|
 | [**2FAuth**](https://github.com/Bubka/2FAuth) | Self-hosted 2FA authenticator with TOTP/HOTP support | ![★](https://img.shields.io/github/stars/Bubka/2FAuth?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Bitwarden Server**](https://github.com/bitwarden/server) | Server, APIs, and admin portal behind the Bitwarden password manager | ![★](https://img.shields.io/github/stars/bitwarden/server?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**KeePassXC**](https://github.com/keepassxreboot/keepassxc) | Cross-platform, community-driven offline password manager | ![★](https://img.shields.io/github/stars/keepassxreboot/keepassxc?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Passbolt**](https://github.com/passbolt/passbolt_api) | Open-source password manager designed for team collaboration | ![★](https://img.shields.io/github/stars/passbolt/passbolt_api?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Vaultwarden**](https://github.com/dani-garcia/vaultwarden) | Lightweight Bitwarden-compatible password manager server written in Rust | ![★](https://img.shields.io/github/stars/dani-garcia/vaultwarden?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
@@ -1132,7 +1152,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 <a id="cms-blogging-static-sites"></a>
 ## 📚 CMS, Blogging & Static Sites
 
-> Content management systems, static site generators, and documentation sites. · **15 projects**
+> Content management systems, static site generators, and documentation sites. · **14 projects**
 
 <a id="content-management-systems"></a>
 ### Content Management Systems
@@ -1153,7 +1173,6 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 
 | Project | Description | Stars |
 |---|---|---|
-| [**Astro**](https://github.com/withastro/astro) | Modern static site builder — ship less JavaScript | ![★](https://img.shields.io/github/stars/withastro/astro?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Docusaurus**](https://github.com/facebook/docusaurus) | Meta's go-to framework for building documentation websites | ![★](https://img.shields.io/github/stars/facebook/docusaurus?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Eleventy**](https://github.com/11ty/eleventy) | A simpler static site generator — fast and flexible | ![★](https://img.shields.io/github/stars/11ty/eleventy?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Hugo**](https://github.com/gohugoio/hugo) | World's fastest static site generator — built in Go | ![★](https://img.shields.io/github/stars/gohugoio/hugo?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
@@ -2133,7 +2152,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 <a id="devops-infrastructure"></a>
 ## 🖥️ DevOps & Infrastructure
 
-> Containers, Kubernetes, GitOps, IaC, platform engineering, service networking, PaaS, and registries. · **90 projects**
+> Containers, Kubernetes, GitOps, IaC, platform engineering, service networking, PaaS, registries, and real-time/VoIP infrastructure. · **110 projects**
 
 <a id="containers-virtualization"></a>
 ### Containers & Virtualization
@@ -2314,8 +2333,40 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | Project | Description | Stars |
 |---|---|---|
 | [**Centrifugo**](https://github.com/centrifugal/centrifugo) | Scalable language-agnostic real-time messaging server for WebSocket and streaming clients | ![★](https://img.shields.io/github/stars/centrifugal/centrifugo?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
-| [**LiveKit**](https://github.com/livekit/livekit) | Open source platform for real-time audio, video, and data | ![★](https://img.shields.io/github/stars/livekit/livekit?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Soketi**](https://github.com/soketi/soketi) | Pusher-compatible open-source WebSocket server focused on simple scalable real-time apps | ![★](https://img.shields.io/github/stars/soketi/soketi?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="webrtc-real-time-media-servers"></a>
+### WebRTC & Real-Time Media Servers
+
+| Project | Description | Stars |
+|---|---|---|
+| [**coturn**](https://github.com/coturn/coturn) | TURN and STUN server for NAT traversal in WebRTC and VoIP deployments | ![★](https://img.shields.io/github/stars/coturn/coturn?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Janus**](https://github.com/meetecho/janus-gateway) | General-purpose, plugin-based WebRTC server for video rooms, streaming, and SIP gateways | ![★](https://img.shields.io/github/stars/meetecho/janus-gateway?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**LiveKit**](https://github.com/livekit/livekit) | Open source platform for real-time audio, video, and data | ![★](https://img.shields.io/github/stars/livekit/livekit?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**MediaMTX**](https://github.com/bluenviron/mediamtx) | Ready-to-use real-time media server and proxy for WebRTC, SRT, RTSP, RTMP, and HLS | ![★](https://img.shields.io/github/stars/bluenviron/mediamtx?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**mediasoup**](https://github.com/versatica/mediasoup) | Cutting-edge WebRTC SFU library for Node.js and Rust | ![★](https://img.shields.io/github/stars/versatica/mediasoup?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**OpenVidu**](https://github.com/OpenVidu/openvidu) | Self-hostable platform for adding video calls, recording, and streaming to applications | ![★](https://img.shields.io/github/stars/OpenVidu/openvidu?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Pion WebRTC**](https://github.com/pion/webrtc) | Pure Go implementation of the WebRTC API for building media servers and clients | ![★](https://img.shields.io/github/stars/pion/webrtc?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="voip-sip-telephony"></a>
+### VoIP, SIP & Telephony
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Asterisk**](https://github.com/asterisk/asterisk) | Pioneering open-source PBX and telephony toolkit for VoIP, IVR, and conferencing | ![★](https://img.shields.io/github/stars/asterisk/asterisk?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**baresip**](https://github.com/baresip/baresip) | Modular SIP user agent with audio, video, and broad codec support | ![★](https://img.shields.io/github/stars/baresip/baresip?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Fonoster**](https://github.com/fonoster/fonoster) | Open-source Twilio alternative for programmable voice and AI voice applications | ![★](https://img.shields.io/github/stars/fonoster/fonoster?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**FreeSWITCH**](https://github.com/signalwire/freeswitch) | Scalable software-defined telecom stack for PBX, conferencing, and voice applications | ![★](https://img.shields.io/github/stars/signalwire/freeswitch?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**FusionPBX**](https://github.com/fusionpbx/fusionpbx) | Multi-tenant web GUI and PBX built on FreeSWITCH | ![★](https://img.shields.io/github/stars/fusionpbx/fusionpbx?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**HOMER**](https://github.com/sipcapture/homer) | SIP and RTC capture, troubleshooting, and monitoring platform | ![★](https://img.shields.io/github/stars/sipcapture/homer?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**JsSIP**](https://github.com/versatica/JsSIP) | JavaScript SIP library for WebRTC-based calling in the browser and Node.js | ![★](https://img.shields.io/github/stars/versatica/JsSIP?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Kamailio**](https://github.com/kamailio/kamailio) | High-performance SIP server for proxies, registrars, load balancers, and carrier routing | ![★](https://img.shields.io/github/stars/kamailio/kamailio?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Linphone**](https://github.com/BelledonneCommunications/linphone-desktop) | Cross-platform SIP softphone for voice, video, and instant messaging | ![★](https://img.shields.io/github/stars/BelledonneCommunications/linphone-desktop?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**OpenSIPS**](https://github.com/OpenSIPS/opensips) | Multi-functional SIP server for proxies, SBCs, load balancing, and call routing | ![★](https://img.shields.io/github/stars/OpenSIPS/opensips?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**PJSIP**](https://github.com/pjsip/pjproject) | Portable multimedia communication library implementing SIP, SDP, RTP, STUN, TURN, and ICE | ![★](https://img.shields.io/github/stars/pjsip/pjproject?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**rtpengine**](https://github.com/sipwise/rtpengine) | Media proxy for Kamailio and OpenSIPS with RTP relay, transcoding, and WebRTC bridging | ![★](https://img.shields.io/github/stars/sipwise/rtpengine?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**SIP.js**](https://github.com/onsip/SIP.js) | TypeScript SIP library for WebRTC voice and video calls in the browser | ![★](https://img.shields.io/github/stars/onsip/SIP.js?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**SIPp**](https://github.com/SIPp/sipp) | SIP traffic generator for load testing and protocol testing VoIP systems | ![★](https://img.shields.io/github/stars/SIPp/sipp?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="messaging-apis-gateways"></a>
 ### Messaging APIs & Gateways
@@ -2663,26 +2714,48 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 <a id="frontend-web-development"></a>
 ## 📱 Frontend & Web Development
 
-> Web frameworks, JS runtimes/tooling, state and data layers, forms, components, testing, performance, accessibility, and styling. · **90 projects**
+> UI frameworks, meta-frameworks, JS runtimes/tooling, state and data layers, forms, components, testing, performance, accessibility, and styling. · **127 projects**
 
-<a id="ui-frameworks-meta-frameworks"></a>
-### UI Frameworks & Meta-Frameworks
+<a id="ui-frameworks"></a>
+### UI Frameworks
 
 | Project | Description | Stars |
 |---|---|---|
 | [**Alpine.js**](https://github.com/alpinejs/alpine) | Minimal reactive JavaScript framework for composing behavior directly in markup | ![★](https://img.shields.io/github/stars/alpinejs/alpine?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Angular**](https://github.com/angular/angular) | Google's TypeScript-based web application framework | ![★](https://img.shields.io/github/stars/angular/angular?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Datastar**](https://github.com/starfederation/datastar) | Hypermedia framework combining backend-driven HTML updates with frontend reactive signals | ![★](https://img.shields.io/github/stars/starfederation/datastar?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Ember.js**](https://github.com/emberjs/ember.js) | Batteries-included JavaScript framework for ambitious web applications with strong conventions | ![★](https://img.shields.io/github/stars/emberjs/ember.js?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**htmx**](https://github.com/bigskysoftware/htmx) | AJAX, CSS transitions, WebSockets in HTML — no JS needed | ![★](https://img.shields.io/github/stars/bigskysoftware/htmx?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
-| [**Next.js**](https://github.com/vercel/next.js) | React framework for production — SSR, SSG, and full-stack | ![★](https://img.shields.io/github/stars/vercel/next.js?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
-| [**Nuxt**](https://github.com/nuxt/nuxt) | Intuitive Vue framework — SSR, SSG, file-based routing | ![★](https://img.shields.io/github/stars/nuxt/nuxt?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Inferno**](https://github.com/infernojs/inferno) | Extremely fast React-like library for building high-performance user interfaces | ![★](https://img.shields.io/github/stars/infernojs/inferno?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Marko**](https://github.com/marko-js/marko) | HTML-based UI language from eBay with streaming SSR and fine-grained reactivity | ![★](https://img.shields.io/github/stars/marko-js/marko?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Mithril.js**](https://github.com/MithrilJS/mithril.js) | Small modern client-side framework with built-in routing and XHR utilities | ![★](https://img.shields.io/github/stars/MithrilJS/mithril.js?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Preact**](https://github.com/preactjs/preact) | Fast lightweight React-compatible UI library with a small runtime footprint | ![★](https://img.shields.io/github/stars/preactjs/preact?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
-| [**Qwik**](https://github.com/QwikDev/qwik) | Resumable web framework designed for instant-loading applications and fine-grained lazy execution | ![★](https://img.shields.io/github/stars/QwikDev/qwik?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Qwik**](https://github.com/QwikDev/qwik) | Resumable web framework with Qwik City routing for instant-loading apps and fine-grained lazy execution | ![★](https://img.shields.io/github/stars/QwikDev/qwik?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**React**](https://github.com/facebook/react) | Meta's JavaScript library for building user interfaces | ![★](https://img.shields.io/github/stars/facebook/react?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
-| [**Remix**](https://github.com/remix-run/remix) | Full-stack React framework focused on web fundamentals | ![★](https://img.shields.io/github/stars/remix-run/remix?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Solid.js**](https://github.com/solidjs/solid) | Reactive UI library — fine-grained reactivity without VDOM | ![★](https://img.shields.io/github/stars/solidjs/solid?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Stimulus**](https://github.com/hotwired/stimulus) | Modest JavaScript framework for adding behavior to server-rendered HTML | ![★](https://img.shields.io/github/stars/hotwired/stimulus?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Svelte**](https://github.com/sveltejs/svelte) | Cybernetically enhanced web apps — compiles away the framework | ![★](https://img.shields.io/github/stars/sveltejs/svelte?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
-| [**SvelteKit**](https://github.com/sveltejs/kit) | The full-stack application framework for Svelte | ![★](https://img.shields.io/github/stars/sveltejs/kit?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Turbo**](https://github.com/hotwired/turbo) | Hotwire's engine for SPA-like speed from server-rendered HTML without writing JavaScript | ![★](https://img.shields.io/github/stars/hotwired/turbo?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Vue.js**](https://github.com/vuejs/core) | Progressive JavaScript framework — approachable, versatile | ![★](https://img.shields.io/github/stars/vuejs/core?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="meta-frameworks"></a>
+### Meta-Frameworks
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Analog**](https://github.com/analogjs/analog) | Full-stack meta-framework for Angular powered by Vite and Nitro | ![★](https://img.shields.io/github/stars/analogjs/analog?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Astro**](https://github.com/withastro/astro) | Web framework for content-driven sites — islands architecture, SSR, and any UI library | ![★](https://img.shields.io/github/stars/withastro/astro?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Fresh**](https://github.com/freshframework/fresh) | Next-gen web framework for Deno with islands architecture and zero JS by default | ![★](https://img.shields.io/github/stars/freshframework/fresh?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Next.js**](https://github.com/vercel/next.js) | React framework for production — SSR, SSG, and full-stack | ![★](https://img.shields.io/github/stars/vercel/next.js?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Nitro**](https://github.com/nitrojs/nitro) | Universal server engine powering Nuxt, SolidStart, and Analog with deploy-anywhere output | ![★](https://img.shields.io/github/stars/nitrojs/nitro?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Nuxt**](https://github.com/nuxt/nuxt) | Intuitive Vue framework — SSR, SSG, file-based routing | ![★](https://img.shields.io/github/stars/nuxt/nuxt?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**React Router**](https://github.com/remix-run/react-router) | Routing library and full-stack React framework — the successor to Remix v2 | ![★](https://img.shields.io/github/stars/remix-run/react-router?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Remix**](https://github.com/remix-run/remix) | Full-stack React framework focused on web fundamentals | ![★](https://img.shields.io/github/stars/remix-run/remix?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**SolidStart**](https://github.com/solidjs/solid-start) | Full-stack application framework for Solid.js with SSR and server functions | ![★](https://img.shields.io/github/stars/solidjs/solid-start?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**SvelteKit**](https://github.com/sveltejs/kit) | The full-stack application framework for Svelte | ![★](https://img.shields.io/github/stars/sveltejs/kit?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**TanStack Start**](https://github.com/TanStack/router) | Type-safe full-stack React and Solid framework built on TanStack Router and Vite | ![★](https://img.shields.io/github/stars/TanStack/router?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Vike**](https://github.com/vikejs/vike) | Composable Vite-based framework for building your own React, Vue, or Solid meta-framework | ![★](https://img.shields.io/github/stars/vikejs/vike?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Waku**](https://github.com/wakujs/waku) | Minimal React framework built around React Server Components | ![★](https://img.shields.io/github/stars/wakujs/waku?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="javascript-runtimes-bundlers-build-tools"></a>
 ### JavaScript Runtimes, Bundlers & Build Tools
@@ -2693,11 +2766,16 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 | [**Bun**](https://github.com/oven-sh/bun) | All-in-one JS toolkit — runtime + bundler + package manager | ![★](https://img.shields.io/github/stars/oven-sh/bun?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Deno**](https://github.com/denoland/deno) | Secure JavaScript and TypeScript runtime built with Rust | ![★](https://img.shields.io/github/stars/denoland/deno?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**esbuild**](https://github.com/evanw/esbuild) | Extremely fast JavaScript and CSS bundler written in Go | ![★](https://img.shields.io/github/stars/evanw/esbuild?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Farm**](https://github.com/farm-fe/farm) | Extremely fast Vite-compatible web build tool written in Rust | ![★](https://img.shields.io/github/stars/farm-fe/farm?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Node.js**](https://github.com/nodejs/node) | Server-side JavaScript runtime built on V8 with a large web tooling ecosystem | ![★](https://img.shields.io/github/stars/nodejs/node?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Oxc**](https://github.com/oxc-project/oxc) | High-performance Rust JavaScript toolchain — parser, linter, formatter, transformer, minifier | ![★](https://img.shields.io/github/stars/oxc-project/oxc?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Parcel**](https://github.com/parcel-bundler/parcel) | Zero-config web application bundler with HTML, CSS, JavaScript, and asset pipelines | ![★](https://img.shields.io/github/stars/parcel-bundler/parcel?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Rolldown**](https://github.com/rolldown/rolldown) | Fast Rust bundler with a Rollup-compatible API, built on Oxc and powering Vite | ![★](https://img.shields.io/github/stars/rolldown/rolldown?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Rollup**](https://github.com/rollup/rollup) | JavaScript module bundler optimized for libraries and tree-shaken production builds | ![★](https://img.shields.io/github/stars/rollup/rollup?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Rsbuild**](https://github.com/web-infra-dev/rsbuild) | Rspack-powered build tool with batteries-included defaults for modern web apps | ![★](https://img.shields.io/github/stars/web-infra-dev/rsbuild?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Rspack**](https://github.com/web-infra-dev/rspack) | Rust-based JavaScript bundler compatible with much of the webpack ecosystem | ![★](https://img.shields.io/github/stars/web-infra-dev/rspack?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**SWC**](https://github.com/swc-project/swc) | Rust-based compiler platform for fast JavaScript and TypeScript transformations | ![★](https://img.shields.io/github/stars/swc-project/swc?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**tsdown**](https://github.com/rolldown/tsdown) | Library bundler for TypeScript packages powered by Rolldown | ![★](https://img.shields.io/github/stars/rolldown/tsdown?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**TypeScript**](https://github.com/microsoft/TypeScript) | Typed superset of JavaScript with static checking and large-scale tooling support | ![★](https://img.shields.io/github/stars/microsoft/TypeScript?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Vite**](https://github.com/vitejs/vite) | Next-gen frontend tooling — instant HMR, lightning fast | ![★](https://img.shields.io/github/stars/vitejs/vite?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**webpack**](https://github.com/webpack/webpack) | Extensible module bundler for JavaScript applications and web assets | ![★](https://img.shields.io/github/stars/webpack/webpack?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
@@ -2727,8 +2805,30 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 
 | Project | Description | Stars |
 |---|---|---|
+| [**Catalyst**](https://github.com/github/catalyst) | GitHub's set of patterns and decorators for building Web Components with minimal boilerplate | ![★](https://img.shields.io/github/stars/github/catalyst?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**FAST**](https://github.com/microsoft/fast) | Microsoft's lightweight Web Component library and design-system foundation | ![★](https://img.shields.io/github/stars/microsoft/fast?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Hybrids**](https://github.com/hybridsjs/hybrids) | Functional, declarative UI library for building Web Components with built-in state and routing | ![★](https://img.shields.io/github/stars/hybridsjs/hybrids?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Lightning Web Components**](https://github.com/salesforce/lwc) | Salesforce's fast, enterprise-grade Web Components framework built on web standards | ![★](https://img.shields.io/github/stars/salesforce/lwc?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Lit**](https://github.com/lit/lit) | Library for building fast lightweight standards-based Web Components | ![★](https://img.shields.io/github/stars/lit/lit?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Modern Web**](https://github.com/modernweb-dev/web) | Web Test Runner and Web Dev Server — tooling for buildless, standards-based development | ![★](https://img.shields.io/github/stars/modernweb-dev/web?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Open Web Components**](https://github.com/open-wc/open-wc) | Guides, tools, generators, and linting for developing Web Components | ![★](https://img.shields.io/github/stars/open-wc/open-wc?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**Stencil**](https://github.com/ionic-team/stencil) | Compiler and toolchain for reusable standards-based Web Components | ![★](https://img.shields.io/github/stars/ionic-team/stencil?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="web-component-ui-libraries"></a>
+### Web Component UI Libraries
+
+| Project | Description | Stars |
+|---|---|---|
+| [**Ionic Framework**](https://github.com/ionic-team/ionic-framework) | Mobile-first UI toolkit of Web Components for building apps with Angular, React, or Vue | ![★](https://img.shields.io/github/stars/ionic-team/ionic-framework?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Lion**](https://github.com/ing-bank/lion) | ING's accessible, white-label Web Components for building your own design system | ![★](https://img.shields.io/github/stars/ing-bank/lion?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Material Web**](https://github.com/material-components/material-web) | Material Design 3 components implemented as Web Components | ![★](https://img.shields.io/github/stars/material-components/material-web?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Media Chrome**](https://github.com/muxinc/media-chrome) | Customizable Web Components for building media player controls | ![★](https://img.shields.io/github/stars/muxinc/media-chrome?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**model-viewer**](https://github.com/google/model-viewer) | Web Component for displaying interactive 3D models and AR on the web | ![★](https://img.shields.io/github/stars/google/model-viewer?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Shoelace**](https://github.com/shoelace-style/shoelace) `⛔ archived` | Forward-thinking library of framework-agnostic Web Components — succeeded by Web Awesome | ![★](https://img.shields.io/github/stars/shoelace-style/shoelace?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Spectrum Web Components**](https://github.com/adobe/spectrum-web-components) | Adobe's Spectrum design system implemented as Web Components | ![★](https://img.shields.io/github/stars/adobe/spectrum-web-components?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**UI5 Web Components**](https://github.com/UI5/webcomponents) | SAP's enterprise-grade Fiori UI elements as framework-agnostic Web Components | ![★](https://img.shields.io/github/stars/UI5/webcomponents?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Vaadin Web Components**](https://github.com/vaadin/web-components) | Business-focused Web Components — grids, forms, charts, and layouts | ![★](https://img.shields.io/github/stars/vaadin/web-components?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Web Awesome**](https://github.com/shoelace-style/webawesome) | Successor to Shoelace — open-source library of framework-agnostic Web Components | ![★](https://img.shields.io/github/stars/shoelace-style/webawesome?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="web-testing-component-development"></a>
 ### Web Testing & Component Development
@@ -2912,7 +3012,7 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 <a id="productivity-collaboration-business"></a>
 ## 🤝 Productivity, Collaboration & Business
 
-> Project management, support, CRM, marketing, billing, forms, signing, and habits. · **29 projects**
+> Project management, team chat, video conferencing, support, CRM, marketing, billing, forms, signing, and habits. · **41 projects**
 
 <a id="project-management-issue-tracking"></a>
 ### Project Management & Issue Tracking
@@ -2936,6 +3036,30 @@ Finding the right open-source tool usually means wading through blog spam, dead 
 |---|---|---|
 | [**AFFiNE**](https://github.com/toeverything/AFFiNE) | All-in-one collaborative workspace combining docs, whiteboards, and databases | ![★](https://img.shields.io/github/stars/toeverything/AFFiNE?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 | [**AppFlowy**](https://github.com/AppFlowy-IO/AppFlowy) | Open-source workspace and knowledge management platform positioned as an alternative to Notion | ![★](https://img.shields.io/github/stars/AppFlowy-IO/AppFlowy?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="team-chat-messaging-servers"></a>
+### Team Chat & Messaging Servers
+
+| Project | Description | Stars |
+|---|---|---|
+| [**ejabberd**](https://github.com/processone/ejabberd) | Robust, scalable XMPP, MQTT, and SIP server for real-time messaging | ![★](https://img.shields.io/github/stars/processone/ejabberd?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Element Web**](https://github.com/element-hq/element-web) | Matrix web client for secure, decentralized team chat and calls | ![★](https://img.shields.io/github/stars/element-hq/element-web?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Mattermost**](https://github.com/mattermost/mattermost) | Self-hosted Slack alternative for team messaging, workflows, and DevOps collaboration | ![★](https://img.shields.io/github/stars/mattermost/mattermost?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Rocket.Chat**](https://github.com/RocketChat/Rocket.Chat) | Self-hosted team chat and omnichannel communication platform | ![★](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Stoat**](https://github.com/stoatchat/stoatchat) | Discord-style chat platform with servers, channels, and voice (formerly Revolt) | ![★](https://img.shields.io/github/stars/stoatchat/stoatchat?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Synapse**](https://github.com/element-hq/synapse) | Reference Matrix homeserver for federated, end-to-end encrypted messaging | ![★](https://img.shields.io/github/stars/element-hq/synapse?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Zulip**](https://github.com/zulip/zulip) | Team chat organized by topic-based threads for focused async conversations | ![★](https://img.shields.io/github/stars/zulip/zulip?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+
+<a id="video-conferencing-voice-chat"></a>
+### Video Conferencing & Voice Chat
+
+| Project | Description | Stars |
+|---|---|---|
+| [**BigBlueButton**](https://github.com/bigbluebutton/bigbluebutton) | Web conferencing system designed for online learning and virtual classrooms | ![★](https://img.shields.io/github/stars/bigbluebutton/bigbluebutton?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Galène**](https://github.com/jech/galene) | Lightweight, easy-to-deploy videoconference server | ![★](https://img.shields.io/github/stars/jech/galene?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Jitsi Meet**](https://github.com/jitsi/jitsi-meet) | Secure, fully featured, self-hostable video conferencing | ![★](https://img.shields.io/github/stars/jitsi/jitsi-meet?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Mumble**](https://github.com/mumble-voip/mumble) | Low-latency, high-quality, encrypted voice chat | ![★](https://img.shields.io/github/stars/mumble-voip/mumble?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
+| [**Nextcloud Talk**](https://github.com/nextcloud/spreed) | Chat, video, and audio calls integrated into Nextcloud | ![★](https://img.shields.io/github/stars/nextcloud/spreed?style=flat-square&color=f4c542&labelColor=1c1c1c&label=%E2%98%85) |
 
 <a id="customer-support-live-chat"></a>
 ### Customer Support & Live Chat

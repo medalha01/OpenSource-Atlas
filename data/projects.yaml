@@ -768,6 +768,16 @@
   desc: UI-first IAM/SSO — OAuth2, OIDC, SAML, LDAP, WebAuthn
   cat: Authentication, Identity & Passwords
   sub: Identity Providers & SSO
+- name: Dex
+  url: https://github.com/dexidp/dex
+  desc: OpenID Connect identity provider that federates LDAP, SAML, GitHub, and other connectors
+  cat: Authentication, Identity & Passwords
+  sub: Identity Providers & SSO
+- name: Janssen
+  url: https://github.com/JanssenProject/jans
+  desc: Linux Foundation cloud-native identity and access management platform (Gluu successor)
+  cat: Authentication, Identity & Passwords
+  sub: Identity Providers & SSO
 - name: Kanidm
   url: https://github.com/kanidm/kanidm
   desc: Modern identity management server focused on security and simplicity
@@ -793,14 +803,44 @@
   desc: Simple OIDC provider with passkey-first authentication
   cat: Authentication, Identity & Passwords
   sub: Identity Providers & SSO
+- name: Tinyauth
+  url: https://github.com/tinyauthapp/tinyauth
+  desc: Lightweight forward-auth login screen and OIDC provider for self-hosted apps
+  cat: Authentication, Identity & Passwords
+  sub: Identity Providers & SSO
 - name: Zitadel
   url: https://github.com/zitadel/zitadel
   desc: Cloud-native IAM with multi-tenancy, OIDC, SAML, OAuth2
   cat: Authentication, Identity & Passwords
   sub: Identity Providers & SSO
+- name: Auth.js
+  url: https://github.com/nextauthjs/next-auth
+  desc: Authentication for Next.js and other web frameworks with OAuth, email, and credentials
+  cat: Authentication, Identity & Passwords
+  sub: Auth Services & Libraries
 - name: Authorizer
   url: https://github.com/authorizerdev/authorizer
   desc: Build secure apps faster — auth in 10x less code
+  cat: Authentication, Identity & Passwords
+  sub: Auth Services & Libraries
+- name: Better Auth
+  url: https://github.com/better-auth/better-auth
+  desc: Framework-agnostic TypeScript auth library with plugins for 2FA, passkeys, orgs, and SSO
+  cat: Authentication, Identity & Passwords
+  sub: Auth Services & Libraries
+- name: Hanko
+  url: https://github.com/teamhanko/hanko
+  desc: Passkey-first authentication and user management with drop-in web components
+  cat: Authentication, Identity & Passwords
+  sub: Auth Services & Libraries
+- name: oidc-provider
+  url: https://github.com/panva/node-oidc-provider
+  desc: OpenID Certified OAuth 2.0 authorization server and OpenID Connect provider for Node.js
+  cat: Authentication, Identity & Passwords
+  sub: Auth Services & Libraries
+- name: OpenIddict
+  url: https://github.com/openiddict/openiddict-core
+  desc: Flexible OpenID Connect server and client stack for ASP.NET Core and .NET
   cat: Authentication, Identity & Passwords
   sub: Auth Services & Libraries
 - name: Ory Kratos
@@ -808,6 +848,12 @@
   desc: Security-focused authentication system with a fully open source core
   cat: Authentication, Identity & Passwords
   sub: Auth Services & Libraries
+- name: Passport.js
+  url: https://github.com/jaredhanson/passport
+  desc: Simple, unobtrusive authentication middleware for Node.js with 500+ strategies
+  cat: Authentication, Identity & Passwords
+  sub: Auth Services & Libraries
+  status: [inactive]
 - name: Stack Auth
   url: https://github.com/stack-auth/stack
   desc: Open source Auth0/Clerk alternative with Next.js integration
@@ -816,6 +862,11 @@
 - name: Supabase Auth
   url: https://github.com/supabase/auth
   desc: JWT-based auth with RLS, built into Supabase
+  cat: Authentication, Identity & Passwords
+  sub: Auth Services & Libraries
+- name: SuperTokens
+  url: https://github.com/supertokens/supertokens-core
+  desc: Open-source Auth0/Firebase Auth alternative with sessions, social login, and MFA
   cat: Authentication, Identity & Passwords
   sub: Auth Services & Libraries
 - name: Apache Casbin
@@ -848,6 +899,11 @@
   desc: Zanzibar-inspired permission server for relationship-based access control
   cat: Authentication, Identity & Passwords
   sub: Authorization & Policy Engines
+- name: Permify
+  url: https://github.com/Permify/permify
+  desc: Zanzibar-inspired authorization service for fine-grained, scalable permissions
+  cat: Authentication, Identity & Passwords
+  sub: Authorization & Policy Engines
 - name: SpiceDB
   url: https://github.com/authzed/spicedb
   desc: Distributed Zanzibar-inspired database for fine-grained authorization relationships
@@ -868,6 +924,11 @@
   desc: Enterprise-grade LDAP directory server with replication, failover, and administration tooling
   cat: Authentication, Identity & Passwords
   sub: Directory Services (LDAP)
+- name: FreeIPA
+  url: https://github.com/freeipa/freeipa
+  desc: Integrated identity management — LDAP, Kerberos, DNS, and PKI for Linux environments
+  cat: Authentication, Identity & Passwords
+  sub: Directory Services (LDAP)
 - name: LLDAP
   url: https://github.com/lldap/lldap
   desc: Lightweight LDAP server for small teams and homelab setups
@@ -876,6 +937,16 @@
 - name: 2FAuth
   url: https://github.com/Bubka/2FAuth
   desc: Self-hosted 2FA authenticator with TOTP/HOTP support
+  cat: Authentication, Identity & Passwords
+  sub: Password Managers & 2FA
+- name: Bitwarden Server
+  url: https://github.com/bitwarden/server
+  desc: Server, APIs, and admin portal behind the Bitwarden password manager
+  cat: Authentication, Identity & Passwords
+  sub: Password Managers & 2FA
+- name: KeePassXC
+  url: https://github.com/keepassxreboot/keepassxc
+  desc: Cross-platform, community-driven offline password manager
   cat: Authentication, Identity & Passwords
   sub: Password Managers & 2FA
 - name: Passbolt
@@ -1549,11 +1620,6 @@
   desc: Powers 43% of the internet — the world's most popular CMS
   cat: CMS, Blogging & Static Sites
   sub: Content Management Systems
-- name: Astro
-  url: https://github.com/withastro/astro
-  desc: Modern static site builder — ship less JavaScript
-  cat: CMS, Blogging & Static Sites
-  sub: Static Site Generators & Documentation Sites
 - name: Docusaurus
   url: https://github.com/facebook/docusaurus
   desc: Meta's go-to framework for building documentation websites
@@ -3966,16 +4032,116 @@
   desc: Scalable language-agnostic real-time messaging server for WebSocket and streaming clients
   cat: DevOps & Infrastructure
   sub: Real-Time Communication Infrastructure
-- name: LiveKit
-  url: https://github.com/livekit/livekit
-  desc: Open source platform for real-time audio, video, and data
-  cat: DevOps & Infrastructure
-  sub: Real-Time Communication Infrastructure
 - name: Soketi
   url: https://github.com/soketi/soketi
   desc: Pusher-compatible open-source WebSocket server focused on simple scalable real-time apps
   cat: DevOps & Infrastructure
   sub: Real-Time Communication Infrastructure
+- name: coturn
+  url: https://github.com/coturn/coturn
+  desc: TURN and STUN server for NAT traversal in WebRTC and VoIP deployments
+  cat: DevOps & Infrastructure
+  sub: WebRTC & Real-Time Media Servers
+- name: Janus
+  url: https://github.com/meetecho/janus-gateway
+  desc: General-purpose, plugin-based WebRTC server for video rooms, streaming, and SIP gateways
+  cat: DevOps & Infrastructure
+  sub: WebRTC & Real-Time Media Servers
+- name: LiveKit
+  url: https://github.com/livekit/livekit
+  desc: Open source platform for real-time audio, video, and data
+  cat: DevOps & Infrastructure
+  sub: WebRTC & Real-Time Media Servers
+- name: MediaMTX
+  url: https://github.com/bluenviron/mediamtx
+  desc: Ready-to-use real-time media server and proxy for WebRTC, SRT, RTSP, RTMP, and HLS
+  cat: DevOps & Infrastructure
+  sub: WebRTC & Real-Time Media Servers
+- name: mediasoup
+  url: https://github.com/versatica/mediasoup
+  desc: Cutting-edge WebRTC SFU library for Node.js and Rust
+  cat: DevOps & Infrastructure
+  sub: WebRTC & Real-Time Media Servers
+- name: OpenVidu
+  url: https://github.com/OpenVidu/openvidu
+  desc: Self-hostable platform for adding video calls, recording, and streaming to applications
+  cat: DevOps & Infrastructure
+  sub: WebRTC & Real-Time Media Servers
+- name: Pion WebRTC
+  url: https://github.com/pion/webrtc
+  desc: Pure Go implementation of the WebRTC API for building media servers and clients
+  cat: DevOps & Infrastructure
+  sub: WebRTC & Real-Time Media Servers
+- name: Asterisk
+  url: https://github.com/asterisk/asterisk
+  desc: Pioneering open-source PBX and telephony toolkit for VoIP, IVR, and conferencing
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: baresip
+  url: https://github.com/baresip/baresip
+  desc: Modular SIP user agent with audio, video, and broad codec support
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: Fonoster
+  url: https://github.com/fonoster/fonoster
+  desc: Open-source Twilio alternative for programmable voice and AI voice applications
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: FreeSWITCH
+  url: https://github.com/signalwire/freeswitch
+  desc: Scalable software-defined telecom stack for PBX, conferencing, and voice applications
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: FusionPBX
+  url: https://github.com/fusionpbx/fusionpbx
+  desc: Multi-tenant web GUI and PBX built on FreeSWITCH
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: HOMER
+  url: https://github.com/sipcapture/homer
+  desc: SIP and RTC capture, troubleshooting, and monitoring platform
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: JsSIP
+  url: https://github.com/versatica/JsSIP
+  desc: JavaScript SIP library for WebRTC-based calling in the browser and Node.js
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: Kamailio
+  url: https://github.com/kamailio/kamailio
+  desc: High-performance SIP server for proxies, registrars, load balancers, and carrier routing
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: Linphone
+  url: https://github.com/BelledonneCommunications/linphone-desktop
+  desc: Cross-platform SIP softphone for voice, video, and instant messaging
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: OpenSIPS
+  url: https://github.com/OpenSIPS/opensips
+  desc: Multi-functional SIP server for proxies, SBCs, load balancing, and call routing
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: PJSIP
+  url: https://github.com/pjsip/pjproject
+  desc: Portable multimedia communication library implementing SIP, SDP, RTP, STUN, TURN, and ICE
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: rtpengine
+  url: https://github.com/sipwise/rtpengine
+  desc: Media proxy for Kamailio and OpenSIPS with RTP relay, transcoding, and WebRTC bridging
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: SIP.js
+  url: https://github.com/onsip/SIP.js
+  desc: TypeScript SIP library for WebRTC voice and video calls in the browser
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
+- name: SIPp
+  url: https://github.com/SIPp/sipp
+  desc: SIP traffic generator for load testing and protocol testing VoIP systems
+  cat: DevOps & Infrastructure
+  sub: VoIP, SIP & Telephony
 - name: Baileys
   url: https://github.com/WhiskeySockets/Baileys
   desc: TypeScript library for interacting with WhatsApp Web through its WebSocket protocol
@@ -4661,67 +4827,147 @@
   url: https://github.com/alpinejs/alpine
   desc: Minimal reactive JavaScript framework for composing behavior directly in markup
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
+  sub: UI Frameworks
 - name: Angular
   url: https://github.com/angular/angular
   desc: Google's TypeScript-based web application framework
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
+  sub: UI Frameworks
+- name: Datastar
+  url: https://github.com/starfederation/datastar
+  desc: Hypermedia framework combining backend-driven HTML updates with frontend reactive signals
+  cat: Frontend & Web Development
+  sub: UI Frameworks
+- name: Ember.js
+  url: https://github.com/emberjs/ember.js
+  desc: Batteries-included JavaScript framework for ambitious web applications with strong conventions
+  cat: Frontend & Web Development
+  sub: UI Frameworks
 - name: htmx
   url: https://github.com/bigskysoftware/htmx
   desc: AJAX, CSS transitions, WebSockets in HTML — no JS needed
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
-- name: Next.js
-  url: https://github.com/vercel/next.js
-  desc: React framework for production — SSR, SSG, and full-stack
+  sub: UI Frameworks
+- name: Inferno
+  url: https://github.com/infernojs/inferno
+  desc: Extremely fast React-like library for building high-performance user interfaces
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
-- name: Nuxt
-  url: https://github.com/nuxt/nuxt
-  desc: Intuitive Vue framework — SSR, SSG, file-based routing
+  sub: UI Frameworks
+- name: Marko
+  url: https://github.com/marko-js/marko
+  desc: HTML-based UI language from eBay with streaming SSR and fine-grained reactivity
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
+  sub: UI Frameworks
+- name: Mithril.js
+  url: https://github.com/MithrilJS/mithril.js
+  desc: Small modern client-side framework with built-in routing and XHR utilities
+  cat: Frontend & Web Development
+  sub: UI Frameworks
 - name: Preact
   url: https://github.com/preactjs/preact
   desc: Fast lightweight React-compatible UI library with a small runtime footprint
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
+  sub: UI Frameworks
 - name: Qwik
   url: https://github.com/QwikDev/qwik
-  desc: Resumable web framework designed for instant-loading applications and fine-grained lazy execution
+  desc: Resumable web framework with Qwik City routing for instant-loading apps and fine-grained lazy execution
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
+  sub: UI Frameworks
 - name: React
   url: https://github.com/facebook/react
   desc: Meta's JavaScript library for building user interfaces
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
-- name: Remix
-  url: https://github.com/remix-run/remix
-  desc: Full-stack React framework focused on web fundamentals
-  cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
+  sub: UI Frameworks
 - name: Solid.js
   url: https://github.com/solidjs/solid
   desc: Reactive UI library — fine-grained reactivity without VDOM
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
+  sub: UI Frameworks
+- name: Stimulus
+  url: https://github.com/hotwired/stimulus
+  desc: Modest JavaScript framework for adding behavior to server-rendered HTML
+  cat: Frontend & Web Development
+  sub: UI Frameworks
 - name: Svelte
   url: https://github.com/sveltejs/svelte
   desc: Cybernetically enhanced web apps — compiles away the framework
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
-- name: SvelteKit
-  url: https://github.com/sveltejs/kit
-  desc: The full-stack application framework for Svelte
+  sub: UI Frameworks
+- name: Turbo
+  url: https://github.com/hotwired/turbo
+  desc: Hotwire's engine for SPA-like speed from server-rendered HTML without writing JavaScript
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
+  sub: UI Frameworks
 - name: Vue.js
   url: https://github.com/vuejs/core
   desc: Progressive JavaScript framework — approachable, versatile
   cat: Frontend & Web Development
-  sub: UI Frameworks & Meta-Frameworks
+  sub: UI Frameworks
+- name: Analog
+  url: https://github.com/analogjs/analog
+  desc: Full-stack meta-framework for Angular powered by Vite and Nitro
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: Astro
+  url: https://github.com/withastro/astro
+  desc: Web framework for content-driven sites — islands architecture, SSR, and any UI library
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: Fresh
+  url: https://github.com/freshframework/fresh
+  desc: Next-gen web framework for Deno with islands architecture and zero JS by default
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: Next.js
+  url: https://github.com/vercel/next.js
+  desc: React framework for production — SSR, SSG, and full-stack
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: Nitro
+  url: https://github.com/nitrojs/nitro
+  desc: Universal server engine powering Nuxt, SolidStart, and Analog with deploy-anywhere output
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: Nuxt
+  url: https://github.com/nuxt/nuxt
+  desc: Intuitive Vue framework — SSR, SSG, file-based routing
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: React Router
+  url: https://github.com/remix-run/react-router
+  desc: Routing library and full-stack React framework — the successor to Remix v2
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: Remix
+  url: https://github.com/remix-run/remix
+  desc: Full-stack React framework focused on web fundamentals
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: SolidStart
+  url: https://github.com/solidjs/solid-start
+  desc: Full-stack application framework for Solid.js with SSR and server functions
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: SvelteKit
+  url: https://github.com/sveltejs/kit
+  desc: The full-stack application framework for Svelte
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: TanStack Start
+  url: https://github.com/TanStack/router
+  desc: Type-safe full-stack React and Solid framework built on TanStack Router and Vite
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: Vike
+  url: https://github.com/vikejs/vike
+  desc: Composable Vite-based framework for building your own React, Vue, or Solid meta-framework
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
+- name: Waku
+  url: https://github.com/wakujs/waku
+  desc: Minimal React framework built around React Server Components
+  cat: Frontend & Web Development
+  sub: Meta-Frameworks
 - name: Babel
   url: https://github.com/babel/babel
   desc: JavaScript compiler and transformation toolchain for modern syntax and language features
@@ -4742,9 +4988,19 @@
   desc: Extremely fast JavaScript and CSS bundler written in Go
   cat: Frontend & Web Development
   sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: Farm
+  url: https://github.com/farm-fe/farm
+  desc: Extremely fast Vite-compatible web build tool written in Rust
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
 - name: Node.js
   url: https://github.com/nodejs/node
   desc: Server-side JavaScript runtime built on V8 with a large web tooling ecosystem
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: Oxc
+  url: https://github.com/oxc-project/oxc
+  desc: High-performance Rust JavaScript toolchain — parser, linter, formatter, transformer, minifier
   cat: Frontend & Web Development
   sub: JavaScript Runtimes, Bundlers & Build Tools
 - name: Parcel
@@ -4752,9 +5008,19 @@
   desc: Zero-config web application bundler with HTML, CSS, JavaScript, and asset pipelines
   cat: Frontend & Web Development
   sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: Rolldown
+  url: https://github.com/rolldown/rolldown
+  desc: Fast Rust bundler with a Rollup-compatible API, built on Oxc and powering Vite
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
 - name: Rollup
   url: https://github.com/rollup/rollup
   desc: JavaScript module bundler optimized for libraries and tree-shaken production builds
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: Rsbuild
+  url: https://github.com/web-infra-dev/rsbuild
+  desc: Rspack-powered build tool with batteries-included defaults for modern web apps
   cat: Frontend & Web Development
   sub: JavaScript Runtimes, Bundlers & Build Tools
 - name: Rspack
@@ -4765,6 +5031,11 @@
 - name: SWC
   url: https://github.com/swc-project/swc
   desc: Rust-based compiler platform for fast JavaScript and TypeScript transformations
+  cat: Frontend & Web Development
+  sub: JavaScript Runtimes, Bundlers & Build Tools
+- name: tsdown
+  url: https://github.com/rolldown/tsdown
+  desc: Library bundler for TypeScript packages powered by Rolldown
   cat: Frontend & Web Development
   sub: JavaScript Runtimes, Bundlers & Build Tools
 - name: TypeScript
@@ -4822,9 +5093,39 @@
   desc: TypeScript-first schema validation with static type inference
   cat: Frontend & Web Development
   sub: Forms, Validation & Schemas
+- name: Catalyst
+  url: https://github.com/github/catalyst
+  desc: GitHub's set of patterns and decorators for building Web Components with minimal boilerplate
+  cat: Frontend & Web Development
+  sub: Web Components
+- name: FAST
+  url: https://github.com/microsoft/fast
+  desc: Microsoft's lightweight Web Component library and design-system foundation
+  cat: Frontend & Web Development
+  sub: Web Components
+- name: Hybrids
+  url: https://github.com/hybridsjs/hybrids
+  desc: Functional, declarative UI library for building Web Components with built-in state and routing
+  cat: Frontend & Web Development
+  sub: Web Components
+- name: Lightning Web Components
+  url: https://github.com/salesforce/lwc
+  desc: Salesforce's fast, enterprise-grade Web Components framework built on web standards
+  cat: Frontend & Web Development
+  sub: Web Components
 - name: Lit
   url: https://github.com/lit/lit
   desc: Library for building fast lightweight standards-based Web Components
+  cat: Frontend & Web Development
+  sub: Web Components
+- name: Modern Web
+  url: https://github.com/modernweb-dev/web
+  desc: Web Test Runner and Web Dev Server — tooling for buildless, standards-based development
+  cat: Frontend & Web Development
+  sub: Web Components
+- name: Open Web Components
+  url: https://github.com/open-wc/open-wc
+  desc: Guides, tools, generators, and linting for developing Web Components
   cat: Frontend & Web Development
   sub: Web Components
 - name: Stencil
@@ -4832,6 +5133,57 @@
   desc: Compiler and toolchain for reusable standards-based Web Components
   cat: Frontend & Web Development
   sub: Web Components
+- name: Ionic Framework
+  url: https://github.com/ionic-team/ionic-framework
+  desc: Mobile-first UI toolkit of Web Components for building apps with Angular, React, or Vue
+  cat: Frontend & Web Development
+  sub: Web Component UI Libraries
+- name: Lion
+  url: https://github.com/ing-bank/lion
+  desc: ING's accessible, white-label Web Components for building your own design system
+  cat: Frontend & Web Development
+  sub: Web Component UI Libraries
+- name: Material Web
+  url: https://github.com/material-components/material-web
+  desc: Material Design 3 components implemented as Web Components
+  cat: Frontend & Web Development
+  sub: Web Component UI Libraries
+- name: Media Chrome
+  url: https://github.com/muxinc/media-chrome
+  desc: Customizable Web Components for building media player controls
+  cat: Frontend & Web Development
+  sub: Web Component UI Libraries
+- name: model-viewer
+  url: https://github.com/google/model-viewer
+  desc: Web Component for displaying interactive 3D models and AR on the web
+  cat: Frontend & Web Development
+  sub: Web Component UI Libraries
+- name: Shoelace
+  url: https://github.com/shoelace-style/shoelace
+  desc: Forward-thinking library of framework-agnostic Web Components — succeeded by Web Awesome
+  cat: Frontend & Web Development
+  sub: Web Component UI Libraries
+  status: [archived]
+- name: Spectrum Web Components
+  url: https://github.com/adobe/spectrum-web-components
+  desc: Adobe's Spectrum design system implemented as Web Components
+  cat: Frontend & Web Development
+  sub: Web Component UI Libraries
+- name: UI5 Web Components
+  url: https://github.com/UI5/webcomponents
+  desc: SAP's enterprise-grade Fiori UI elements as framework-agnostic Web Components
+  cat: Frontend & Web Development
+  sub: Web Component UI Libraries
+- name: Vaadin Web Components
+  url: https://github.com/vaadin/web-components
+  desc: Business-focused Web Components — grids, forms, charts, and layouts
+  cat: Frontend & Web Development
+  sub: Web Component UI Libraries
+- name: Web Awesome
+  url: https://github.com/shoelace-style/webawesome
+  desc: Successor to Shoelace — open-source library of framework-agnostic Web Components
+  cat: Frontend & Web Development
+  sub: Web Component UI Libraries
 - name: Cypress
   url: https://github.com/cypress-io/cypress
   desc: Browser-based end-to-end and component testing framework for web applications
@@ -5224,6 +5576,66 @@
   desc: Open-source workspace and knowledge management platform positioned as an alternative to Notion
   cat: Productivity, Collaboration & Business
   sub: Workspaces & Collaboration
+- name: ejabberd
+  url: https://github.com/processone/ejabberd
+  desc: Robust, scalable XMPP, MQTT, and SIP server for real-time messaging
+  cat: Productivity, Collaboration & Business
+  sub: Team Chat & Messaging Servers
+- name: Element Web
+  url: https://github.com/element-hq/element-web
+  desc: Matrix web client for secure, decentralized team chat and calls
+  cat: Productivity, Collaboration & Business
+  sub: Team Chat & Messaging Servers
+- name: Mattermost
+  url: https://github.com/mattermost/mattermost
+  desc: Self-hosted Slack alternative for team messaging, workflows, and DevOps collaboration
+  cat: Productivity, Collaboration & Business
+  sub: Team Chat & Messaging Servers
+- name: Rocket.Chat
+  url: https://github.com/RocketChat/Rocket.Chat
+  desc: Self-hosted team chat and omnichannel communication platform
+  cat: Productivity, Collaboration & Business
+  sub: Team Chat & Messaging Servers
+- name: Stoat
+  url: https://github.com/stoatchat/stoatchat
+  desc: Discord-style chat platform with servers, channels, and voice (formerly Revolt)
+  cat: Productivity, Collaboration & Business
+  sub: Team Chat & Messaging Servers
+- name: Synapse
+  url: https://github.com/element-hq/synapse
+  desc: Reference Matrix homeserver for federated, end-to-end encrypted messaging
+  cat: Productivity, Collaboration & Business
+  sub: Team Chat & Messaging Servers
+- name: Zulip
+  url: https://github.com/zulip/zulip
+  desc: Team chat organized by topic-based threads for focused async conversations
+  cat: Productivity, Collaboration & Business
+  sub: Team Chat & Messaging Servers
+- name: BigBlueButton
+  url: https://github.com/bigbluebutton/bigbluebutton
+  desc: Web conferencing system designed for online learning and virtual classrooms
+  cat: Productivity, Collaboration & Business
+  sub: Video Conferencing & Voice Chat
+- name: Galène
+  url: https://github.com/jech/galene
+  desc: Lightweight, easy-to-deploy videoconference server
+  cat: Productivity, Collaboration & Business
+  sub: Video Conferencing & Voice Chat
+- name: Jitsi Meet
+  url: https://github.com/jitsi/jitsi-meet
+  desc: Secure, fully featured, self-hostable video conferencing
+  cat: Productivity, Collaboration & Business
+  sub: Video Conferencing & Voice Chat
+- name: Mumble
+  url: https://github.com/mumble-voip/mumble
+  desc: Low-latency, high-quality, encrypted voice chat
+  cat: Productivity, Collaboration & Business
+  sub: Video Conferencing & Voice Chat
+- name: Nextcloud Talk
+  url: https://github.com/nextcloud/spreed
+  desc: Chat, video, and audio calls integrated into Nextcloud
+  cat: Productivity, Collaboration & Business
+  sub: Video Conferencing & Voice Chat
 - name: Chatwoot
   url: https://github.com/chatwoot/chatwoot
   desc: Customer engagement and support platform with live chat and omnichannel inboxes
